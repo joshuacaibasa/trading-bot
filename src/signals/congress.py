@@ -29,12 +29,16 @@ Only covers the Senate for now — the House uses a separate, PDF-heavy system
 If this whole approach proves too fragile, QuiverQuant's Hobbyist tier
 ($30/mo) gives you clean House + Senate data with none of this maintenance.
 """
+import re
 from datetime import datetime, timedelta
 
 import requests
+import yfinance as yf
 from bs4 import BeautifulSoup
 
 from .. import config
+
+_DATE_RE = re.compile(r"\b(\d{1,2}/\d{1,2}/\d{4})\b")
 
 BASE = "https://efdsearch.senate.gov"
 SEARCH_HOME = f"{BASE}/search/home/"
@@ -157,18 +161,47 @@ def parse_ptr_transactions(report_url: str) -> list[dict]:
                 break
         txn_type = "Purchase" if "purchase" in row_text.lower() else (
             "Sale" if "sale" in row_text.lower() else None)
+        txn_date = None
+        date_match = _DATE_RE.search(row_text)
+        if date_match:
+            txn_date = date_match.group(1)
         if ticker and txn_type:
-            transactions.append({"ticker": ticker, "type": txn_type, "raw_row": cells})
+            transactions.append({"ticker": ticker, "type": txn_type, "date": txn_date, "raw_row": cells})
 
     return transactions
 
 
+def _price_change_since(ticker: str, since_date: datetime) -> float | None:
+    """Fractional price change from around `since_date` to the most recent
+    close. Returns None if history can't be fetched (bad ticker match,
+    transaction too recent to have a start price yet, delisted symbol, etc.)
+    — callers should treat None as "unknown, don't penalize"."""
+    try:
+        hist = yf.Ticker(ticker).history(
+            start=since_date - timedelta(days=5), end=datetime.now() + timedelta(days=1)
+        )
+        if hist.empty:
+            return None
+        start_price = hist["Close"].iloc[0]
+        current_price = hist["Close"].iloc[-1]
+        if not start_price:
+            return None
+        return (current_price - start_price) / start_price
+    except Exception:
+        return None
+
+
 def build_congress_signal_table() -> dict:
     """Full batch: fetch recent filings, parse each, aggregate into
-    {TICKER: {"buys": n, "sells": n, "buyers": {names}, "sellers": {names}}}.
+    {TICKER: {"buys": n, "sells": n, "stale_buys": n, "buyers": {names}, "sellers": {names}}}.
     Meant to be run periodically (e.g. daily) via scripts/refresh_congress_trades.py,
     not inline per-ticker (parsing every filing once per run is far cheaper than
-    once per ticker)."""
+    once per ticker).
+
+    Purchases where the stock has already run up past config.CONGRESS_STALE_BUY_THRESHOLD
+    since the actual trade date are counted as "stale_buys" instead of "buys" — the
+    disclosure lag (PTRs are filed up to 45 days after the trade) means the price move
+    the trade might have predicted has often already happened by the time we see it."""
     filings = fetch_recent_ptr_filings()
     print(f"[congress] Found {len(filings)} recent PTR filings.")
 
@@ -177,11 +210,22 @@ def build_congress_signal_table() -> dict:
         transactions = parse_ptr_transactions(filing["report_url"])
         for t in transactions:
             entry = signal_table.setdefault(t["ticker"], {
-                "buys": 0, "sells": 0, "buyers": set(), "sellers": set(),
+                "buys": 0, "sells": 0, "stale_buys": 0, "buyers": set(), "sellers": set(),
             })
             if t["type"] == "Purchase":
-                entry["buys"] += 1
-                entry["buyers"].add(filing["name"])
+                is_stale = False
+                if t.get("date"):
+                    try:
+                        txn_date = datetime.strptime(t["date"], "%m/%d/%Y")
+                        change = _price_change_since(t["ticker"], txn_date)
+                        is_stale = change is not None and change >= config.CONGRESS_STALE_BUY_THRESHOLD
+                    except ValueError:
+                        pass
+                if is_stale:
+                    entry["stale_buys"] += 1
+                else:
+                    entry["buys"] += 1
+                    entry["buyers"].add(filing["name"])
             elif t["type"] == "Sale":
                 entry["sells"] += 1
                 entry["sellers"].add(filing["name"])

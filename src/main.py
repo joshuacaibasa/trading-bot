@@ -2,9 +2,10 @@
 Entry point: fetch -> score -> report.
 
 Usage:
-    python3 -m src.main                  # use cache where fresh
-    python3 -m src.main --refresh        # force re-fetch everything (yfinance + insider signals)
-    python3 -m src.main --skip-insider   # skip the slow SEC insider-trading step (e.g. for quick iteration)
+    python3 -m src.main                     # use cache where fresh
+    python3 -m src.main --refresh           # force re-fetch everything (yfinance + insider signals)
+    python3 -m src.main --skip-insider      # skip the slow SEC insider-trading step (e.g. for quick iteration)
+    python3 -m src.main --skip-trend-check  # skip the long-term-downtrend price history fetch
 
 Before running with insider/institutional signals enabled, set config.SEC_USER_AGENT
 to your own name + email (see src/sec_utils.py for why).
@@ -23,6 +24,8 @@ def main():
     parser.add_argument("--refresh", action="store_true", help="Ignore cache, re-fetch all data.")
     parser.add_argument("--skip-insider", action="store_true",
                          help="Skip the SEC insider-trading fetch (fastest way to iterate on scoring/report logic).")
+    parser.add_argument("--skip-trend-check", action="store_true",
+                         help="Skip the long-term-downtrend price history fetch (another slow, per-ticker step).")
     args = parser.parse_args()
 
     print("[main] Fetching S&P 500 universe...")
@@ -44,6 +47,13 @@ def main():
         raw_df = raw_df.merge(insider_df, on="ticker", how="left")
     else:
         print("[main] Skipping insider signals (--skip-insider).")
+
+    if not args.skip_trend_check:
+        print("[main] Checking for long-term (18mo+) downtrends...")
+        trend_df = data_fetch.fetch_long_term_trend_flags(raw_df["ticker"].tolist(), refresh=args.refresh)
+        raw_df = raw_df.merge(trend_df, on="ticker", how="left")
+    else:
+        print("[main] Skipping long-term trend check (--skip-trend-check).")
 
     print("[main] Loading congressional trading signals (run scripts/refresh_congress_trades.py "
           "to update this)...")

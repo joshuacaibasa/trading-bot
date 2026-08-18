@@ -29,6 +29,10 @@ def apply_quality_filters(df: pd.DataFrame) -> pd.DataFrame:
     )
     if config.REQUIRE_POSITIVE_EARNINGS:
         mask &= df["trailingEps"].fillna(-1) > 0
+    if "long_term_downtrend" in df.columns:
+        # None ("not enough price history to judge") is not treated as a
+        # downtrend — only a confirmed persistent decline excludes a stock.
+        mask &= df["long_term_downtrend"].fillna(False) != True  # noqa: E712
     excluded = len(df) - mask.sum()
     print(f"[scoring] Quality filters excluded {excluded}/{len(df)} tickers "
           f"({mask.sum()} remain).")

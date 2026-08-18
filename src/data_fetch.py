@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from io import StringIO
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import requests
 import yfinance as yf
@@ -19,6 +20,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CACHE_FILE = DATA_DIR / "ticker_cache.json"
 INSIDER_CACHE_FILE = DATA_DIR / "insider_cache.json"
 CONGRESS_SIGNAL_FILE = DATA_DIR / "congress_signal.json"
+TREND_CACHE_FILE = DATA_DIR / "trend_cache.json"
 
 
 def get_sp500_universe() -> list[str]:
@@ -165,12 +167,77 @@ def fetch_insider_signals(tickers: list[str], refresh: bool = False) -> pd.DataF
     return pd.DataFrame(rows)
 
 
+def _is_long_term_downtrend(ticker: str) -> bool | None:
+    """Fit a linear trend to log(price) over the trailing
+    config.LONG_TERM_DOWNTREND_LOOKBACK_MONTHS of weekly closes. Returns True
+    if it's a sufficiently consistent decline (R^2 >= the configured
+    threshold — filters out sideways/noisy stocks, not just anything down
+    off its peak), False if not a downtrend, or None if there isn't enough
+    price history yet to judge (e.g. a recent IPO)."""
+    weeks_needed = round(config.LONG_TERM_DOWNTREND_LOOKBACK_MONTHS * 52 / 12)
+    try:
+        hist = yf.Ticker(ticker).history(period="2y", interval="1wk")
+    except Exception as e:
+        print(f"[data_fetch] Failed to fetch price history for {ticker}: {e}")
+        return None
+
+    closes = hist["Close"].dropna()
+    if len(closes) < weeks_needed:
+        return None
+    closes = closes.iloc[-weeks_needed:]
+
+    x = np.arange(len(closes))
+    y = np.log(closes.to_numpy())
+    slope, intercept = np.polyfit(x, y, 1)
+    fitted = slope * x + intercept
+    ss_res = np.sum((y - fitted) ** 2)
+    ss_tot = np.sum((y - y.mean()) ** 2)
+    r_squared = 1 - ss_res / ss_tot if ss_tot > 0 else 0.0
+
+    return bool(slope < 0 and r_squared >= config.LONG_TERM_DOWNTREND_MIN_R2)
+
+
+def fetch_long_term_trend_flags(tickers: list[str], refresh: bool = False) -> pd.DataFrame:
+    """Flag tickers in a persistent long-term (18mo+) downtrend, so scoring
+    can exclude them entirely. Cached like the other per-ticker signals."""
+    cache = {}
+    if TREND_CACHE_FILE.exists():
+        try:
+            cache = json.loads(TREND_CACHE_FILE.read_text())
+        except json.JSONDecodeError:
+            cache = {}
+
+    def _save():
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        TREND_CACHE_FILE.write_text(json.dumps(cache, indent=2, default=str))
+
+    rows = []
+    total = len(tickers)
+    for i, ticker in enumerate(tickers, 1):
+        entry = cache.get(ticker)
+        if not refresh and entry and _is_fresh(entry):
+            rows.append({"ticker": ticker, "long_term_downtrend": entry["data"]})
+            continue
+
+        flag = _is_long_term_downtrend(ticker)
+        time.sleep(config.REQUEST_DELAY_SECONDS)
+        cache[ticker] = {"_fetched_at": datetime.now().isoformat(), "data": flag}
+        rows.append({"ticker": ticker, "long_term_downtrend": flag})
+
+        if i % 25 == 0 or i == total:
+            print(f"[data_fetch] long-term trend check: {i}/{total} tickers processed...")
+            _save()
+
+    _save()
+    return pd.DataFrame(rows)
+
+
 def load_congress_signals() -> pd.DataFrame:
     """Load the precomputed congress-trading signal table (built by
     scripts/refresh_congress_trades.py). Returns an empty-but-correctly-shaped
     DataFrame if it hasn't been built yet, so downstream merges don't break."""
     empty = pd.DataFrame(columns=["ticker", "congress_buys", "congress_sells",
-                                   "congress_buyers", "congress_sellers"])
+                                   "congress_stale_buys", "congress_buyers", "congress_sellers"])
     if not CONGRESS_SIGNAL_FILE.exists():
         print(f"[data_fetch] {CONGRESS_SIGNAL_FILE} not found — run "
               f"scripts/refresh_congress_trades.py first. Continuing without this signal.")
@@ -183,6 +250,11 @@ def load_congress_signals() -> pd.DataFrame:
             "ticker": ticker,
             "congress_buys": entry.get("buys", 0),
             "congress_sells": entry.get("sells", 0),
+            # Purchases where the stock had already run up past
+            # config.CONGRESS_STALE_BUY_THRESHOLD since the trade date — not
+            # counted in congress_buys/congress_net, kept here just for
+            # transparency in the report/CSV.
+            "congress_stale_buys": entry.get("stale_buys", 0),
             "congress_buyers": len(entry.get("buyers", [])),
             "congress_sellers": len(entry.get("sellers", [])),
         })

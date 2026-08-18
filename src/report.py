@@ -66,7 +66,8 @@ def build_report(scored_df: pd.DataFrame) -> tuple[Path, Path]:
         f"# Trading Research Bot — Pilot Report ({timestamp})",
         "",
         f"Universe scanned: {len(scored_df)} stocks passed quality filters "
-        f"(market cap, positive earnings, analyst coverage — see config.py).",
+        f"(market cap, positive earnings, analyst coverage, no persistent 18mo+ "
+        f"downtrend — see config.py).",
         "",
         "This is a research aid, not financial advice. Conviction scores are relative "
         "rankings within this run's universe, not absolute predictions.",
@@ -106,7 +107,9 @@ def build_report(scored_df: pd.DataFrame) -> tuple[Path, Path]:
         "also have insiders, institutions, or Congress members net *buying* recently — not just "
         "cheap on paper. See README for how each of those signals is sourced and their limitations "
         "(insider trading data is solid/official; institutional 13F data is approximate and "
-        "quarterly; congressional trading data is experimental and Senate-only for now).",
+        "quarterly; congressional trading data is experimental, Senate-only for now, and discounts "
+        "purchases where the stock already ran up 30%+ between the trade date and disclosure as "
+        "stale/late signals).",
         "",
         "Still not yet incorporated: news sentiment and Reddit chatter (Phase 3) and an LLM-written "
         "thesis per stock (Phase 3). Sanity-check a few names above against what you already know "

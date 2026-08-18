@@ -41,10 +41,29 @@ INSIDER_MAX_FILINGS_PER_TICKER = 5  # cap Form 4 filings fetched per ticker (kee
 # --- Congressional trading signal (src/signals/congress.py) — experimental, Senate only ---
 CONGRESS_LOOKBACK_DAYS = 45  # PTRs must be filed within 45 days of the transaction, so this covers "recent" trades
 
+# A politician's trade isn't disclosed until well after it's placed (PTRs are
+# filed up to 45 days after the transaction, per CONGRESS_LOOKBACK_DAYS above,
+# and often later). If the stock has already rallied a lot between the actual
+# trade date and disclosure, that "buy" signal is stale — the move it might
+# have predicted has largely already happened by the time we see it. Purchases
+# where the stock has already run up at least this much since the trade date
+# aren't counted as a fresh buy signal.
+CONGRESS_STALE_BUY_THRESHOLD = 0.30  # 30%+ run-up since the trade date = stale
+
 # --- Quality filters: stocks failing these are excluded entirely, not just scored low ---
 MIN_MARKET_CAP = 2_000_000_000     # $2B+ only, for the pilot (avoid illiquid microcaps)
 REQUIRE_POSITIVE_EARNINGS = True   # exclude companies with negative trailing EPS
 MIN_ANALYST_COVERAGE = 3           # need at least this many analysts covering it
+
+# Exclude stocks in a persistent long-term downtrend — this is a chronic-decliner
+# filter, distinct from the "drawdown" contrarian signal above (which rewards
+# being off a 52-week high). Fit a linear trend to log(price) over the trailing
+# window; a stock only gets excluded if the fit is both declining AND a good
+# enough fit (LONG_TERM_DOWNTREND_MIN_R2) to call it a real trend rather than
+# sideways noise. A ticker with less price history than the window (e.g. a
+# recent IPO) is never excluded by this filter — there's no 18mo trend to judge.
+LONG_TERM_DOWNTREND_LOOKBACK_MONTHS = 18   # ~1.5 years
+LONG_TERM_DOWNTREND_MIN_R2 = 0.5  # tuned so a genuine V-shaped reversal isn't caught by this filter
 
 # --- "Diamond in the rough" flag thresholds ---
 DIAMOND_MIN_DRAWDOWN = 0.25        # at least 25% off 52-week high

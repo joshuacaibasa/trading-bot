@@ -105,10 +105,15 @@ to change the balance:
 - **Momentum** — position within the 52-week range, so we're not just flagging stocks in freefall.
 - **Insider signal** — net insider open-market buying (trailing 90 days), sized relative to market cap.
 - **Congressional signal** — net Senate members buying vs. selling recently (experimental).
+  Purchases where the stock had already run up 30%+ between the trade date and disclosure are
+  excluded from this count as stale/late signals (`config.CONGRESS_STALE_BUY_THRESHOLD`) — PTRs
+  are filed up to 45 days after the trade, so by the time we see one the move it might have
+  predicted has often already happened.
 - **Institutional signal** — quarter-over-quarter change in aggregate institutional ownership.
 
-A **quality filter** excludes companies with negative earnings, thin analyst coverage, or under
-$2B market cap before any of this — see `config.py` to change the thresholds.
+A **quality filter** excludes companies with negative earnings, thin analyst coverage, under $2B
+market cap, or a persistent 18+ month downtrend (linear fit to log-price, see
+`config.LONG_TERM_DOWNTREND_*`) before any of this — see `config.py` to change the thresholds.
 
 `diamond_in_rough` flags stocks with a big drawdown + real analyst upside + a sector-relative
 discount. `smart_money_aligned` additionally requires insiders, institutions, or Congress to be

@@ -11,6 +11,7 @@ data/ticker_cache.json
 data/ticker_cik_map.json
 data/insider_cache.json
 data/congress_signal.json
+data/trend_cache.json
 
 # Timestamped report snapshots pile up fast; only latest_report.* is tracked
 # (committed by the daily-screen workflow) so there's a lightweight history
