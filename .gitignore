@@ -1,0 +1,29 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch/leftover files from earlier work, not meant to be tracked.
+_to_delete/
+
+# Per-run caches, regenerated every time — noisy to track in git.
+data/ticker_cache.json
+data/ticker_cik_map.json
+data/insider_cache.json
+data/congress_signal.json
+
+# Timestamped report snapshots pile up fast; only latest_report.* is tracked
+# (committed by the daily-screen workflow) so there's a lightweight history
+# in git without every single run's file living forever.
+reports/report_*.md
+reports/report_*.csv
+demo/
+
+# The dashboard's data feed is deployed straight to GitHub Pages by the daily
+# workflow (see .github/workflows/daily-screen.yml) — it's not meant to live
+# in git history. Locally it's just a preview artifact.
+site/data/latest.json
+
+# data/institutional_flows.json is INTENTIONALLY NOT ignored — the quarterly
+# workflow commits it, since it's the only way the daily job (which starts
+# from a fresh checkout each time) gets access to it.

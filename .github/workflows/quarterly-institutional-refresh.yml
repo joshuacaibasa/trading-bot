@@ -1,0 +1,37 @@
+name: Quarterly institutional (13F) refresh
+
+on:
+  schedule:
+    # 13F filings are due within 45 days of quarter end (mid-Feb/May/Aug/Nov).
+    # Run on the 20th of each of those months, well after the deadline, at 12:00 UTC.
+    - cron: "0 12 20 2,5,8,11 *"
+  workflow_dispatch: {}   # trigger manually any time you want to force a refresh
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh institutional holdings data
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python3 -m scripts.refresh_institutional_data
+
+      - name: Commit updated institutional data
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/institutional_flows.json
+          git diff --cached --quiet || git commit -m "Quarterly institutional data refresh $(date -u +%Y-%m-%d)"
+          git push || true

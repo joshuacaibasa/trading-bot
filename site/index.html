@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Research Bot — Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Trading Research Bot</h1>
+    <p class="subtitle" id="subtitle">Loading latest scan…</p>
+    <p class="disclaimer">Research aid only, not financial advice. Scores are relative rankings within each run's universe, not predictions.</p>
+  </header>
+
+  <div class="stat-row" id="statRow"></div>
+
+  <div class="panel">
+    <h2>Conviction vs. drawdown</h2>
+    <p class="panel-desc">Every stock that passed the quality filters. X-axis: how far off its 52-week high. Y-axis: overall conviction score. The most interesting names sit up and to the right — meaningfully discounted, but still scoring well.</p>
+    <div class="legend">
+      <span class="legend-item"><span class="dot" style="background:var(--series-1)"></span>Other</span>
+      <span class="legend-item"><span class="dot" style="background:var(--series-3)"></span>Diamond in the rough</span>
+      <span class="legend-item"><span class="dot" style="background:var(--series-3); box-shadow:0 0 0 2px var(--status-good)"></span>+ smart money aligned (insiders/institutions/Congress net buying)</span>
+    </div>
+    <svg id="scatter" viewBox="0 0 760 420" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="tooltip" style="position:fixed; display:none; pointer-events:none; background:var(--surface-1); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:12.5px; box-shadow:0 4px 16px rgba(0,0,0,0.15); z-index:10;"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Full ranked list</h2>
+    <p class="panel-desc">Click a column header to sort. This table is the accessible/complete view of everything in the chart above.</p>
+    <div class="controls">
+      <input type="text" id="searchBox" placeholder="Search ticker or name…">
+      <select id="sectorFilter"><option value="">All sectors</option></select>
+      <label><input type="checkbox" id="diamondOnly"> Diamonds only</label>
+      <label><input type="checkbox" id="smartOnly"> Smart-money aligned only</label>
+    </div>
+    <div id="tableWrap"></div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

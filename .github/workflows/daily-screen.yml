@@ -1,0 +1,58 @@
+name: Daily research screen
+
+on:
+  schedule:
+    # 22:00 UTC = 6pm ET / 3pm PT during EDT, giving Yahoo Finance a couple
+    # hours after the 4pm ET close to settle end-of-day prices. Adjust if you
+    # want a different time — cron is always in UTC, GitHub does not shift
+    # for daylight saving.
+    - cron: "0 22 * * 1-5"   # weekdays only
+  workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write   # to commit the quarterly-refreshed institutional cache if present
+  pages: write       # to publish the dashboard
+  id-token: write    # required by actions/deploy-pages
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  run-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh congressional trading signal (best-effort, experimental)
+        run: python3 -m scripts.refresh_congress_trades
+        continue-on-error: true   # see src/signals/congress.py — this is the fragile one
+
+      - name: Run the research pipeline
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python3 -m src.main
+
+      - name: Upload dashboard as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Commit the generated report back to the repo (optional history)
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/latest_report.md reports/latest_report.csv || true
+          git diff --cached --quiet || git commit -m "Daily report $(date -u +%Y-%m-%d)"
+          git push || true
