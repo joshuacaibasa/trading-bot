@@ -33,5 +33,10 @@ jobs:
           git config user.name "trading-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/institutional_flows.json
-          git diff --cached --quiet || git commit -m "Quarterly institutional data refresh $(date -u +%Y-%m-%d)"
-          git push || true
+          if git diff --cached --quiet; then
+            echo "No institutional data changes to commit."
+            exit 0
+          fi
+          git commit -m "Quarterly institutional data refresh $(date -u +%Y-%m-%d)"
+          git pull --rebase origin master
+          git push
