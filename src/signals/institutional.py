@@ -30,9 +30,11 @@ INSTITUTIONAL_CACHE = DATA_DIR / "institutional_flows.json"
 LISTING_URL = "https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets"
 
 
-def _normalize_name(name: str) -> str:
+def _normalize_name(name) -> str:
     """Strip corporate suffixes/punctuation so 'Apple Inc' and 'APPLE INC.'
     both normalize to 'apple'."""
+    if not isinstance(name, str):
+        return ""  # a handful of SEC INFOTABLE rows have a genuinely missing issuer name
     name = name.lower()
     name = re.sub(r"[.,]", "", name)
     for suffix in [" inc", " corp", " corporation", " co", " ltd", " plc",
