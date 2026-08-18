@@ -79,6 +79,13 @@ def fetch_insider_transactions(ticker: str, cik: int, max_filings: int = None) -
     for i in form4_indices:
         accession_no_dashes = accession_numbers[i].replace("-", "")
         doc = primary_docs[i]
+        # submissions.json's primaryDocument for Form 4s points at SEC's
+        # XSLT-rendered HTML viewer copy (e.g. "xslF345X06/form4.xml"), not
+        # the raw XML — parsing that as XML silently yields zero transactions
+        # (caught by the ET.ParseError guard below). The actual XML sits in
+        # the same accession directory with that viewer subfolder stripped.
+        if "/" in doc:
+            doc = doc.rsplit("/", 1)[-1]
         url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_no_dashes}/{doc}"
         try:
             filing_resp = sec_utils.sec_get(url)
