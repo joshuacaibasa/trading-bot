@@ -5,9 +5,11 @@ with a simple on-disk cache so repeated runs don't hammer Yahoo Finance.
 import json
 import time
 from datetime import datetime, timedelta
+from io import StringIO
 from pathlib import Path
 
 import pandas as pd
+import requests
 import yfinance as yf
 
 from . import config, sec_utils
@@ -26,7 +28,17 @@ def get_sp500_universe() -> list[str]:
     Wikipedia scrape fails for any reason.
     """
     try:
-        tables = pd.read_html(config.SP500_WIKI_URL)
+        # pandas' read_html makes a bare urllib request with no User-Agent,
+        # which Wikipedia now 403s (especially from GitHub Actions IPs). Fetch
+        # the HTML ourselves with a browser-like UA, then hand the text to
+        # read_html instead of the URL.
+        resp = requests.get(
+            config.SP500_WIKI_URL,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; trading-bot research script)"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        tables = pd.read_html(StringIO(resp.text))
         df = tables[0]
         tickers = df["Symbol"].astype(str).str.replace(".", "-", regex=False).tolist()
         if len(tickers) < 400:
