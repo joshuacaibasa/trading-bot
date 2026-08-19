@@ -88,6 +88,44 @@ def compute_features(df: pd.DataFrame) -> pd.DataFrame:
     else:
         df["institutional_flow"] = 0.0
 
+    # --- Quality/growth/trend signals ---
+
+    # Free cash flow yield: cash generation relative to market cap. A
+    # cheapness signal that's harder to accounting-massage than trailing P/E
+    # (marketCap is guaranteed positive here — apply_quality_filters runs
+    # before compute_features and enforces MIN_MARKET_CAP).
+    if "freeCashflow" in df.columns:
+        df["fcf_yield"] = (df["freeCashflow"].fillna(0) / df["marketCap"]).fillna(0)
+    else:
+        df["fcf_yield"] = 0.0
+
+    # Return on equity: separates "actually a good business, temporarily
+    # cheap" from "cheap because it's mediocre." No clipping of extreme
+    # values (e.g. heavy-buyback companies with unusually high ROE) — since
+    # everything downstream uses percentile rank, only relative order
+    # matters, not magnitude.
+    if "returnOnEquity" in df.columns:
+        df["roe"] = df["returnOnEquity"].fillna(0)
+    else:
+        df["roe"] = 0.0
+
+    # Growth: trailing year-over-year revenue growth. Revenue growth is used
+    # over earnings growth since it's less prone to one-off accounting noise
+    # (buybacks, tax changes, write-offs).
+    if "revenueGrowth" in df.columns:
+        df["growth"] = df["revenueGrowth"].fillna(0)
+    else:
+        df["growth"] = 0.0
+
+    # Score trend: is this stock's conviction score rising or falling
+    # recently (see signals/score_history.py). Absent for tickers without
+    # enough saved history yet (including every ticker on the very first
+    # run) — that collapses to a neutral 0, same as the other signals above.
+    if "score_trend" in df.columns:
+        df["score_trend"] = df["score_trend"].fillna(0)
+    else:
+        df["score_trend"] = 0.0
+
     return df
 
 
@@ -101,6 +139,10 @@ def compute_conviction_scores(df: pd.DataFrame) -> pd.DataFrame:
         "insider_intensity": "insider_signal",
         "congress_net": "congress_signal",
         "institutional_flow": "institutional_signal",
+        "fcf_yield": "fcf_yield",
+        "roe": "quality_roe",
+        "growth": "growth",
+        "score_trend": "score_trend",
     }
 
     total_weight = sum(config.WEIGHTS.values())

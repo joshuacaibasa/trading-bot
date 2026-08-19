@@ -110,6 +110,14 @@ to change the balance:
   are filed up to 45 days after the trade, so by the time we see one the move it might have
   predicted has often already happened.
 - **Institutional signal** — quarter-over-quarter change in aggregate institutional ownership.
+- **Free cash flow yield** — free cash flow / market cap. A cheapness signal that's harder to
+  accounting-massage than trailing P/E.
+- **Quality (ROE)** — return on equity. Separates "actually a good business, temporarily cheap"
+  from "cheap because it's mediocre" — the two are otherwise easy to conflate on valuation alone.
+- **Growth** — trailing year-over-year revenue growth.
+- **Score trend** — is this stock's conviction score rising or falling over the last
+  `config.SCORE_TREND_LOOKBACK_DAYS` (see `signals/score_history.py`), from a small JSON snapshot
+  file committed to git daily. Neutral (no effect) until enough history has accumulated.
 
 A **quality filter** excludes companies with negative earnings, thin analyst coverage, under $2B
 market cap, or a persistent 18+ month downtrend (linear fit to log-price, see

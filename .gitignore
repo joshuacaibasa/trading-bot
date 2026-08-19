@@ -25,6 +25,7 @@ demo/
 # in git history. Locally it's just a preview artifact.
 site/data/latest.json
 
-# data/institutional_flows.json is INTENTIONALLY NOT ignored — the quarterly
-# workflow commits it, since it's the only way the daily job (which starts
-# from a fresh checkout each time) gets access to it.
+# data/institutional_flows.json and data/score_history.json are INTENTIONALLY
+# NOT ignored — the daily workflow commits them, since that's the only way a
+# run (which starts from a fresh checkout each time) gets access to data from
+# a previous day.

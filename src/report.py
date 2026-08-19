@@ -26,6 +26,7 @@ JSON_COLS = [
     "ticker", "shortName", "sector", "price", "conviction_score",
     "valuation_discount", "analyst_upside", "drawdown", "momentum_score",
     "insider_intensity", "congress_net", "institutional_flow",
+    "fcf_yield", "roe", "growth", "score_trend",
     "diamond_in_rough", "smart_money_aligned",
 ]
 

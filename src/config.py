@@ -16,14 +16,22 @@ REQUEST_DELAY_SECONDS = 0.3
 CACHE_MAX_AGE_DAYS = 1
 
 # --- Scoring weights (must be non-negative; don't need to sum to 1, we normalize) ---
+# The original 7 weights below are each scaled to 80% of their original value
+# (same relative balance among themselves) to make room for 4 new signals
+# without any single old signal silently losing more influence than another.
 WEIGHTS = {
-    "valuation_discount": 0.25,   # cheaper than sector peers = higher score
-    "analyst_upside": 0.25,       # more upside to analyst target = higher score
-    "drawdown": 0.15,             # further off 52-week high = higher score (contrarian tilt)
-    "momentum_penalty": 0.10,     # penalize stocks in a severe, accelerating downtrend (falling knife guard)
-    "insider_signal": 0.10,       # net insider open-market buying vs selling, trailing 90 days
-    "congress_signal": 0.05,      # net Senate PTR buying vs selling, trailing window (experimental — see signals/congress.py)
-    "institutional_signal": 0.10, # institutional (13F) accumulation vs distribution, quarter-over-quarter
+    "valuation_discount": 0.19,   # cheaper than sector peers = higher score
+    "analyst_upside": 0.19,       # more upside to analyst target = higher score
+    "drawdown": 0.11,             # further off 52-week high = higher score (contrarian tilt)
+    "momentum_penalty": 0.08,     # penalize stocks in a severe, accelerating downtrend (falling knife guard)
+    "insider_signal": 0.08,       # net insider open-market buying vs selling, trailing 90 days
+    "congress_signal": 0.04,      # net Senate PTR buying vs selling, trailing window (experimental — see signals/congress.py)
+    "institutional_signal": 0.08, # institutional (13F) accumulation vs distribution, quarter-over-quarter
+    # --- New quality/growth/trend signals ---
+    "fcf_yield": 0.08,     # free cash flow / market cap — a cheapness signal that's harder to accounting-massage than P/E
+    "quality_roe": 0.06,   # return on equity — separates "actually a good business" from "just statistically cheap"
+    "growth": 0.05,        # trailing year-over-year revenue growth
+    "score_trend": 0.04,   # is this stock's conviction score rising or falling recently (see signals/score_history.py)
 }
 
 # --- SEC EDGAR access (required for insider + institutional signals) ---
@@ -49,6 +57,15 @@ CONGRESS_LOOKBACK_DAYS = 45  # PTRs must be filed within 45 days of the transact
 # where the stock has already run up at least this much since the trade date
 # aren't counted as a fresh buy signal.
 CONGRESS_STALE_BUY_THRESHOLD = 0.30  # 30%+ run-up since the trade date = stale
+
+# --- Score trend (src/signals/score_history.py) ---
+# Each day's run appends its conviction scores to data/score_history.json
+# (committed to git, since each GitHub Actions run starts from a fresh
+# checkout). score_trend compares the two most recent already-saved
+# snapshots roughly this many days apart — never today's in-progress score
+# — so there's no circular dependency on the score being computed right now.
+SCORE_TREND_LOOKBACK_DAYS = 7        # ~a week of trading, given weekday-only runs
+SCORE_TREND_MAX_HISTORY_DAYS = 30    # bounds how much history the JSON file retains
 
 # --- Quality filters: stocks failing these are excluded entirely, not just scored low ---
 MIN_MARKET_CAP = 2_000_000_000     # $2B+ only, for the pilot (avoid illiquid microcaps)

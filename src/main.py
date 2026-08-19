@@ -17,6 +17,7 @@ import pandas as pd
 
 from . import data_fetch, report, scoring
 from .signals import institutional as institutional_signals
+from .signals import score_history
 
 
 def main():
@@ -71,8 +72,17 @@ def main():
         ])
         raw_df = raw_df.merge(inst_df, on="ticker", how="left")
 
+    print("[main] Computing score trend from historical snapshots (data/score_history.json)...")
+    history = score_history.load_history()
+    trend_map = score_history.compute_score_trend(history)
+    raw_df["score_trend"] = raw_df["ticker"].map(trend_map)
+
     print("[main] Scoring...")
     scored_df = scoring.score_universe(raw_df)
+
+    # Save *after* scoring, using today's final scores, so tomorrow's trend
+    # calculation compares against real numbers rather than a placeholder.
+    score_history.save_snapshot(scored_df)
 
     print("[main] Building report...")
     md_path, csv_path = report.build_report(scored_df)

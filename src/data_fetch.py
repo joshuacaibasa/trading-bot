@@ -85,6 +85,8 @@ FIELDS = [
     "currentPrice", "regularMarketPrice", "fiftyTwoWeekHigh", "fiftyTwoWeekLow",
     "targetMeanPrice", "numberOfAnalystOpinions", "recommendationMean",
     "shortName", "industry",
+    # Free with the same yfinance .info call — no extra request cost.
+    "freeCashflow", "returnOnEquity", "revenueGrowth",
 ]
 
 
