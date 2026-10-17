@@ -1,4 +1,4 @@
-# Trading Research Bot — Pilot Report (2026-10-16_0022)
+# Trading Research Bot — Pilot Report (2026-10-17_0024)
 
 Universe scanned: 423 stocks passed quality filters (market cap, positive earnings, analyst coverage, no persistent 18mo+ downtrend — see config.py).
 
@@ -9,80 +9,80 @@ This is a research aid, not financial advice. Conviction scores are relative ran
 Stocks that score well across valuation vs. sector peers, analyst upside, and (contrarian) distance from their 52-week high, with a stabilization check so we're not just flagging stocks in freefall.
 
 - **MU** (Micron Technology, Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 81.5/100 | Price: $931.24 | Sector-relative valuation: 64.9% cheaper than sector median | Analyst upside: 67.6% | Off 52-week high: 25.8%
+  Conviction score: 81.6/100 | Price: $878.84 | Sector-relative valuation: 65.8% cheaper than sector median | Analyst upside: 77.6% | Off 52-week high: 30.0%
 - **SNDK** (Sandisk Corporation) — Technology 🔥 *smart money aligned*
-  Conviction score: 80.1/100 | Price: $1394.83 | Sector-relative valuation: 46.3% cheaper than sector median | Analyst upside: 55.8% | Off 52-week high: 40.8%
+  Conviction score: 79.9/100 | Price: $1299.30 | Sector-relative valuation: 49.0% cheaper than sector median | Analyst upside: 67.2% | Off 52-week high: 44.8%
 - **WDC** (Western Digital Corporation) — Technology 🔥 *smart money aligned*
-  Conviction score: 78.4/100 | Price: $356.45 | Sector-relative valuation: 62.8% cheaper than sector median | Analyst upside: 87.5% | Off 52-week high: 55.4%
-- **JBL** (Jabil Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 75.2/100 | Price: $287.14 | Sector-relative valuation: 14.4% cheaper than sector median | Analyst upside: 48.0% | Off 52-week high: 33.1%
+  Conviction score: 78.2/100 | Price: $332.00 | Sector-relative valuation: 64.3% cheaper than sector median | Analyst upside: 101.4% | Off 52-week high: 58.5%
 - **GEV** (GE Vernova Inc.) — Industrials
-  Conviction score: 74.8/100 | Price: $926.44 | Sector-relative valuation: 2.6% cheaper than sector median | Analyst upside: 32.1% | Off 52-week high: 22.5%
+  Conviction score: 76.0/100 | Price: $921.20 | Sector-relative valuation: 9.7% cheaper than sector median | Analyst upside: 32.9% | Off 52-week high: 23.0%
+- **JBL** (Jabil Inc.) — Technology 🔥 *smart money aligned*
+  Conviction score: 75.8/100 | Price: $278.25 | Sector-relative valuation: 17.3% cheaper than sector median | Analyst upside: 52.7% | Off 52-week high: 35.1%
 - **EME** (EMCOR Group, Inc.) — Industrials
-  Conviction score: 73.1/100 | Price: $732.53 | Sector-relative valuation: 18.3% cheaper than sector median | Analyst upside: 41.1% | Off 52-week high: 23.1%
-- **DECK** (Deckers Outdoor Corporation) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 72.0/100 | Price: $86.58 | Sector-relative valuation: 40.5% cheaper than sector median | Analyst upside: 36.7% | Off 52-week high: 29.2%
-- **DVA** (DaVita Inc.) — Healthcare
-  Conviction score: 71.8/100 | Price: $189.16 | Sector-relative valuation: 42.8% cheaper than sector median | Analyst upside: 16.2% | Off 52-week high: 23.6%
-- **CRH** (CRH PLC) — Basic Materials 🔥 *smart money aligned*
-  Conviction score: 71.5/100 | Price: $82.32 | Sector-relative valuation: 52.5% cheaper than sector median | Analyst upside: 53.7% | Off 52-week high: 37.4%
-- **NXPI** (NXP Semiconductors N.V.) — Technology 🔥 *smart money aligned*
-  Conviction score: 71.3/100 | Price: $231.09 | Sector-relative valuation: 45.6% cheaper than sector median | Analyst upside: 32.7% | Off 52-week high: 32.0%
-- **T** (AT&T Inc.) — Communication Services
-  Conviction score: 71.2/100 | Price: $23.50 | Sector-relative valuation: 65.9% cheaper than sector median | Analyst upside: 22.4% | Off 52-week high: 20.2%
-- **TPR** (Tapestry, Inc.) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 71.0/100 | Price: $119.75 | Sector-relative valuation: 20.9% cheaper than sector median | Analyst upside: 39.0% | Off 52-week high: 27.3%
-- **GEN** (Gen Digital Inc.) — Technology
-  Conviction score: 71.0/100 | Price: $24.82 | Sector-relative valuation: 61.0% cheaper than sector median | Analyst upside: 30.3% | Off 52-week high: 21.6%
+  Conviction score: 74.1/100 | Price: $721.66 | Sector-relative valuation: 23.2% cheaper than sector median | Analyst upside: 43.2% | Off 52-week high: 24.2%
 - **DAL** (Delta Air Lines, Inc.) — Industrials
-  Conviction score: 70.9/100 | Price: $78.08 | Sector-relative valuation: 44.4% cheaper than sector median | Analyst upside: 29.4% | Off 52-week high: 18.4%
+  Conviction score: 71.9/100 | Price: $75.37 | Sector-relative valuation: 48.6% cheaper than sector median | Analyst upside: 34.1% | Off 52-week high: 21.2%
+- **DECK** (Deckers Outdoor Corporation) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 71.8/100 | Price: $85.71 | Sector-relative valuation: 42.3% cheaper than sector median | Analyst upside: 37.2% | Off 52-week high: 29.9%
+- **DVA** (DaVita Inc.) — Healthcare
+  Conviction score: 71.6/100 | Price: $187.31 | Sector-relative valuation: 43.7% cheaper than sector median | Analyst upside: 17.4% | Off 52-week high: 24.3%
 - **FDX** (FedEx Corporation) — Industrials
-  Conviction score: 70.6/100 | Price: $295.54 | Sector-relative valuation: 45.3% cheaper than sector median | Analyst upside: 20.3% | Off 52-week high: 14.4%
+  Conviction score: 71.6/100 | Price: $293.55 | Sector-relative valuation: 45.9% cheaper than sector median | Analyst upside: 21.2% | Off 52-week high: 15.0%
+- **GEN** (Gen Digital Inc.) — Technology
+  Conviction score: 71.6/100 | Price: $24.16 | Sector-relative valuation: 59.1% cheaper than sector median | Analyst upside: 33.8% | Off 52-week high: 23.7%
+- **T** (AT&T Inc.) — Communication Services
+  Conviction score: 71.3/100 | Price: $23.44 | Sector-relative valuation: 64.2% cheaper than sector median | Analyst upside: 22.7% | Off 52-week high: 20.4%
+- **CRH** (CRH PLC) — Basic Materials 🔥 *smart money aligned*
+  Conviction score: 70.8/100 | Price: $83.63 | Sector-relative valuation: 52.2% cheaper than sector median | Analyst upside: 49.2% | Off 52-week high: 36.4%
+- **TPR** (Tapestry, Inc.) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 70.3/100 | Price: $120.18 | Sector-relative valuation: 21.3% cheaper than sector median | Analyst upside: 37.5% | Off 52-week high: 27.1%
+- **NXPI** (NXP Semiconductors N.V.) — Technology 🔥 *smart money aligned*
+  Conviction score: 70.0/100 | Price: $229.33 | Sector-relative valuation: 43.3% cheaper than sector median | Analyst upside: 33.7% | Off 52-week high: 32.5%
 - **LVS** (Las Vegas Sands Corp.) — Consumer Cyclical
-  Conviction score: 69.7/100 | Price: $38.32 | Sector-relative valuation: 28.5% cheaper than sector median | Analyst upside: 51.0% | Off 52-week high: 45.6%
+  Conviction score: 69.3/100 | Price: $38.01 | Sector-relative valuation: 29.6% cheaper than sector median | Analyst upside: 50.1% | Off 52-week high: 46.0%
+- **MGM** (MGM Resorts International) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 69.2/100 | Price: $28.60 | Sector-relative valuation: 16.0% cheaper than sector median | Analyst upside: 59.8% | Off 52-week high: 44.6%
 - **FSLR** (First Solar, Inc.) — Technology
-  Conviction score: 69.4/100 | Price: $178.81 | Sector-relative valuation: 69.1% cheaper than sector median | Analyst upside: 53.7% | Off 52-week high: 44.3%
+  Conviction score: 69.2/100 | Price: $172.64 | Sector-relative valuation: 69.2% cheaper than sector median | Analyst upside: 58.6% | Off 52-week high: 46.2%
 - **UAL** (United Airlines Holdings, Inc.) — Industrials
-  Conviction score: 68.7/100 | Price: $101.31 | Sector-relative valuation: 66.0% cheaper than sector median | Analyst upside: 50.8% | Off 52-week high: 27.0%
+  Conviction score: 68.9/100 | Price: $96.10 | Sector-relative valuation: 69.3% cheaper than sector median | Analyst upside: 58.7% | Off 52-week high: 30.7%
 - **LDOS** (Leidos Holdings, Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 68.7/100 | Price: $124.00 | Sector-relative valuation: 69.1% cheaper than sector median | Analyst upside: 22.4% | Off 52-week high: 39.7%
-- **WYNN** (Wynn Resorts, Limited) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 68.1/100 | Price: $76.97 | Sector-relative valuation: 9.1% cheaper than sector median | Analyst upside: 66.6% | Off 52-week high: 42.9%
+  Conviction score: 68.1/100 | Price: $124.85 | Sector-relative valuation: 66.2% cheaper than sector median | Analyst upside: 21.5% | Off 52-week high: 39.3%
 
 ## Diamond-in-the-rough candidates
 
 Stocks at least 25% off their 52-week high, still carrying at least 15% analyst upside, and priced at or below their sector's median valuation — i.e. potentially good businesses that got beaten down.
 
 - **APP** (Applovin Corporation) — Communication Services
-  Conviction score: 66.2/100 | Price: $279.29 | Sector-relative valuation: 1.0% cheaper than sector median | Analyst upside: 71.9% | Off 52-week high: 62.2%
-- **ORCL** (Oracle Corporation) — Technology
-  Conviction score: 64.7/100 | Price: $134.47 | Sector-relative valuation: 37.9% cheaper than sector median | Analyst upside: 77.0% | Off 52-week high: 58.3%
+  Conviction score: 66.8/100 | Price: $266.13 | Sector-relative valuation: 5.4% cheaper than sector median | Analyst upside: 80.4% | Off 52-week high: 63.9%
 - **WDC** (Western Digital Corporation) — Technology 🔥 *smart money aligned*
-  Conviction score: 78.4/100 | Price: $356.45 | Sector-relative valuation: 62.8% cheaper than sector median | Analyst upside: 87.5% | Off 52-week high: 55.4%
-- **LVS** (Las Vegas Sands Corp.) — Consumer Cyclical
-  Conviction score: 69.7/100 | Price: $38.32 | Sector-relative valuation: 28.5% cheaper than sector median | Analyst upside: 51.0% | Off 52-week high: 45.6%
-- **FDXF** (FedEx Freight Holding Company, ) — Industrials
-  Conviction score: 59.7/100 | Price: $110.50 | Sector-relative valuation: 12.2% cheaper than sector median | Analyst upside: 32.6% | Off 52-week high: 44.8%
-- **FSLR** (First Solar, Inc.) — Technology
-  Conviction score: 69.4/100 | Price: $178.81 | Sector-relative valuation: 69.1% cheaper than sector median | Analyst upside: 53.7% | Off 52-week high: 44.3%
+  Conviction score: 78.2/100 | Price: $332.00 | Sector-relative valuation: 64.3% cheaper than sector median | Analyst upside: 101.4% | Off 52-week high: 58.5%
+- **ORCL** (Oracle Corporation) — Technology
+  Conviction score: 64.7/100 | Price: $128.23 | Sector-relative valuation: 41.8% cheaper than sector median | Analyst upside: 85.1% | Off 52-week high: 57.9%
 - **AKAM** (Akamai Technologies, Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 63.4/100 | Price: $92.32 | Sector-relative valuation: 1.9% cheaper than sector median | Analyst upside: 72.1% | Off 52-week high: 44.2%
-- **WYNN** (Wynn Resorts, Limited) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 68.1/100 | Price: $76.97 | Sector-relative valuation: 9.1% cheaper than sector median | Analyst upside: 66.6% | Off 52-week high: 42.9%
-- **MGM** (MGM Resorts International) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 68.0/100 | Price: $29.48 | Sector-relative valuation: 11.7% cheaper than sector median | Analyst upside: 56.1% | Off 52-week high: 42.9%
-- **HII** (Huntington Ingalls Industries, ) — Industrials
-  Conviction score: 61.3/100 | Price: $267.22 | Sector-relative valuation: 46.6% cheaper than sector median | Analyst upside: 33.4% | Off 52-week high: 41.9%
+  Conviction score: 64.6/100 | Price: $87.81 | Sector-relative valuation: 7.8% cheaper than sector median | Analyst upside: 80.9% | Off 52-week high: 46.9%
+- **FSLR** (First Solar, Inc.) — Technology
+  Conviction score: 69.2/100 | Price: $172.64 | Sector-relative valuation: 69.2% cheaper than sector median | Analyst upside: 58.6% | Off 52-week high: 46.2%
+- **LVS** (Las Vegas Sands Corp.) — Consumer Cyclical
+  Conviction score: 69.3/100 | Price: $38.01 | Sector-relative valuation: 29.6% cheaper than sector median | Analyst upside: 50.1% | Off 52-week high: 46.0%
 - **SNDK** (Sandisk Corporation) — Technology 🔥 *smart money aligned*
-  Conviction score: 80.1/100 | Price: $1394.83 | Sector-relative valuation: 46.3% cheaper than sector median | Analyst upside: 55.8% | Off 52-week high: 40.8%
-- **LDOS** (Leidos Holdings, Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 68.7/100 | Price: $124.00 | Sector-relative valuation: 69.1% cheaper than sector median | Analyst upside: 22.4% | Off 52-week high: 39.7%
-- **NCLH** (Norwegian Cruise Line Holdings ) — Consumer Cyclical 🔥 *smart money aligned*
-  Conviction score: 64.4/100 | Price: $15.39 | Sector-relative valuation: 53.0% cheaper than sector median | Analyst upside: 26.3% | Off 52-week high: 38.8%
+  Conviction score: 79.9/100 | Price: $1299.30 | Sector-relative valuation: 49.0% cheaper than sector median | Analyst upside: 67.2% | Off 52-week high: 44.8%
+- **MGM** (MGM Resorts International) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 69.2/100 | Price: $28.60 | Sector-relative valuation: 16.0% cheaper than sector median | Analyst upside: 59.8% | Off 52-week high: 44.6%
 - **SMCI** (Super Micro Computer, Inc.) — Technology 🔥 *smart money aligned*
-  Conviction score: 62.8/100 | Price: $35.09 | Sector-relative valuation: 68.4% cheaper than sector median | Analyst upside: 20.5% | Off 52-week high: 38.0%
+  Conviction score: 65.9/100 | Price: $31.63 | Sector-relative valuation: 71.9% cheaper than sector median | Analyst upside: 33.6% | Off 52-week high: 44.1%
+- **WYNN** (Wynn Resorts, Limited) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 67.9/100 | Price: $75.60 | Sector-relative valuation: 13.7% cheaper than sector median | Analyst upside: 68.3% | Off 52-week high: 43.9%
+- **FDXF** (FedEx Freight Holding Company, ) — Industrials
+  Conviction score: 59.5/100 | Price: $113.21 | Sector-relative valuation: 11.7% cheaper than sector median | Analyst upside: 29.4% | Off 52-week high: 43.4%
+- **HII** (Huntington Ingalls Industries, ) — Industrials
+  Conviction score: 60.3/100 | Price: $272.00 | Sector-relative valuation: 44.6% cheaper than sector median | Analyst upside: 31.0% | Off 52-week high: 40.9%
+- **NCLH** (Norwegian Cruise Line Holdings ) — Consumer Cyclical 🔥 *smart money aligned*
+  Conviction score: 64.4/100 | Price: $15.05 | Sector-relative valuation: 55.8% cheaper than sector median | Analyst upside: 29.2% | Off 52-week high: 40.1%
+- **LDOS** (Leidos Holdings, Inc.) — Technology 🔥 *smart money aligned*
+  Conviction score: 68.1/100 | Price: $124.85 | Sector-relative valuation: 66.2% cheaper than sector median | Analyst upside: 21.5% | Off 52-week high: 39.3%
 - **CRH** (CRH PLC) — Basic Materials 🔥 *smart money aligned*
-  Conviction score: 71.5/100 | Price: $82.32 | Sector-relative valuation: 52.5% cheaper than sector median | Analyst upside: 53.7% | Off 52-week high: 37.4%
+  Conviction score: 70.8/100 | Price: $83.63 | Sector-relative valuation: 52.2% cheaper than sector median | Analyst upside: 49.2% | Off 52-week high: 36.4%
 
 ## Notes
 
