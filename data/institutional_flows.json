@@ -1,2302 +1,2282 @@
 {
   "A": {
-    "institutional_flow_pct": 0.0623,
-    "current_value": 35213236046,
-    "prior_value": 33146784899
+    "institutional_flow_pct": -0.0211,
+    "current_value": 34469285691,
+    "prior_value": 35213236046
   },
   "AAPL": {
-    "institutional_flow_pct": 0.164,
-    "current_value": 3047322624920,
-    "prior_value": 2618059424166
+    "institutional_flow_pct": -0.0385,
+    "current_value": 2930006462759,
+    "prior_value": 3047322624920
   },
   "ABBV": {
-    "institutional_flow_pct": 0.1676,
-    "current_value": 358177300501,
-    "prior_value": 306771759813
+    "institutional_flow_pct": -0.0429,
+    "current_value": 342813299395,
+    "prior_value": 358177300501
   },
   "ABNB": {
-    "institutional_flow_pct": 0.096,
-    "current_value": 53491938586,
-    "prior_value": 48806519161
+    "institutional_flow_pct": -0.0661,
+    "current_value": 49954133225,
+    "prior_value": 53491938586
   },
   "ABT": {
-    "institutional_flow_pct": 7.7479,
-    "current_value": 147077787440,
-    "prior_value": 16812968903
+    "institutional_flow_pct": -0.1201,
+    "current_value": 129420495784,
+    "prior_value": 147077787440
   },
   "ACGL": {
-    "institutional_flow_pct": -0.0189,
-    "current_value": 3110277171,
-    "prior_value": 3170206552
+    "institutional_flow_pct": 0.0206,
+    "current_value": 3174427680,
+    "prior_value": 3110277171
   },
   "ACN": {
-    "institutional_flow_pct": -0.2871,
-    "current_value": 3501389696,
-    "prior_value": 4911293212
+    "institutional_flow_pct": -0.5548,
+    "current_value": 1558771667,
+    "prior_value": 3501389696
   },
   "ADBE": {
-    "institutional_flow_pct": -0.0726,
-    "current_value": 117741294380,
-    "prior_value": 126953135665
+    "institutional_flow_pct": -0.3171,
+    "current_value": 80409378266,
+    "prior_value": 117741294380
   },
   "ADI": {
-    "institutional_flow_pct": 0.3267,
-    "current_value": 155180204760,
-    "prior_value": 116963637096
+    "institutional_flow_pct": 0.1556,
+    "current_value": 179331060311,
+    "prior_value": 155180204760
   },
   "ADM": {
-    "institutional_flow_pct": 7.261,
-    "current_value": 7440987,
-    "prior_value": 900732
+    "institutional_flow_pct": 0.0668,
+    "current_value": 7937998,
+    "prior_value": 7440987
   },
   "ADP": {
-    "institutional_flow_pct": -0.2539,
-    "current_value": 9502690060,
-    "prior_value": 12735894152
+    "institutional_flow_pct": 0.0302,
+    "current_value": 9789420708,
+    "prior_value": 9502690060
   },
   "ADSK": {
-    "institutional_flow_pct": -0.006,
-    "current_value": 57268512709,
-    "prior_value": 57616820134
+    "institutional_flow_pct": -0.2557,
+    "current_value": 42622638720,
+    "prior_value": 57268512709
   },
   "AEE": {
-    "institutional_flow_pct": 0.0564,
-    "current_value": 1996009765,
-    "prior_value": 1889501937
+    "institutional_flow_pct": 0.378,
+    "current_value": 2750406764,
+    "prior_value": 1996009765
   },
   "AEP": {
-    "institutional_flow_pct": 0.157,
-    "current_value": 439508679,
-    "prior_value": 379880209
+    "institutional_flow_pct": -0.2376,
+    "current_value": 335070350,
+    "prior_value": 439508679
   },
   "AES": {
-    "institutional_flow_pct": -0.6251,
-    "current_value": 39502075,
-    "prior_value": 105355452
+    "institutional_flow_pct": 1.7888,
+    "current_value": 110162034,
+    "prior_value": 39502075
   },
   "AFL": {
-    "institutional_flow_pct": 0.0233,
-    "current_value": 95880045,
-    "prior_value": 93695785
+    "institutional_flow_pct": 0.1348,
+    "current_value": 108802992,
+    "prior_value": 95880045
   },
   "AIG": {
-    "institutional_flow_pct": -0.7666,
-    "current_value": 178510066,
-    "prior_value": 764777914
+    "institutional_flow_pct": 0.6121,
+    "current_value": 287772964,
+    "prior_value": 178510066
   },
   "AIZ": {
-    "institutional_flow_pct": 0.026,
-    "current_value": 10717932190,
-    "prior_value": 10446613688
+    "institutional_flow_pct": 0.1282,
+    "current_value": 12092443477,
+    "prior_value": 10717932190
   },
   "AJG": {
-    "institutional_flow_pct": 0.2424,
-    "current_value": 4565766736,
-    "prior_value": 3675098232
+    "institutional_flow_pct": 0.179,
+    "current_value": 5383208054,
+    "prior_value": 4565766736
   },
   "AKAM": {
-    "institutional_flow_pct": 0.6951,
-    "current_value": 27276474203,
-    "prior_value": 16091019893
+    "institutional_flow_pct": -0.0027,
+    "current_value": 27203448493,
+    "prior_value": 27276474203
   },
   "ALB": {
-    "institutional_flow_pct": 1.9004,
-    "current_value": 120465765,
-    "prior_value": 41534499
+    "institutional_flow_pct": -0.2621,
+    "current_value": 88892831,
+    "prior_value": 120465765
   },
   "ALGN": {
-    "institutional_flow_pct": 0.4057,
-    "current_value": 14739996757,
-    "prior_value": 10485937681
-  },
-  "ALL": {
-    "institutional_flow_pct": -0.9807,
-    "current_value": 319511,
-    "prior_value": 16539000
+    "institutional_flow_pct": -0.1472,
+    "current_value": 12570210784,
+    "prior_value": 14739996757
   },
   "ALLE": {
-    "institutional_flow_pct": 0.065,
-    "current_value": 13352668016,
-    "prior_value": 12537447857
+    "institutional_flow_pct": -0.1064,
+    "current_value": 11931735619,
+    "prior_value": 13352668016
   },
   "AMAT": {
-    "institutional_flow_pct": 0.152,
-    "current_value": 22987414747,
-    "prior_value": 19954881417
+    "institutional_flow_pct": 1.1136,
+    "current_value": 48585360184,
+    "prior_value": 22987414747
   },
   "AMCR": {
-    "institutional_flow_pct": 0.1229,
-    "current_value": 15490923726,
-    "prior_value": 13795205113
+    "institutional_flow_pct": 0.0151,
+    "current_value": 15724142195,
+    "prior_value": 15490923726
   },
   "AMD": {
-    "institutional_flow_pct": 0.1442,
-    "current_value": 328660853394,
-    "prior_value": 287242286963
+    "institutional_flow_pct": 1.4936,
+    "current_value": 819553721551,
+    "prior_value": 328660853394
   },
   "AME": {
-    "institutional_flow_pct": 0.2514,
-    "current_value": 49680640173,
-    "prior_value": 39701630112
+    "institutional_flow_pct": -0.0471,
+    "current_value": 47338511353,
+    "prior_value": 49680640173
   },
   "AMGN": {
-    "institutional_flow_pct": 0.2911,
-    "current_value": 188711761166,
-    "prior_value": 146166195965
+    "institutional_flow_pct": -0.0864,
+    "current_value": 172406689120,
+    "prior_value": 188711761166
   },
   "AMP": {
-    "institutional_flow_pct": -0.0419,
-    "current_value": 3074830916,
-    "prior_value": 3209295649
+    "institutional_flow_pct": -0.0211,
+    "current_value": 3009893752,
+    "prior_value": 3074830916
   },
   "AMZN": {
-    "institutional_flow_pct": -0.1133,
-    "current_value": 143975758075,
-    "prior_value": 162366142708
+    "institutional_flow_pct": 0.161,
+    "current_value": 167149956925,
+    "prior_value": 143975758075
   },
   "ANET": {
-    "institutional_flow_pct": 0.059,
-    "current_value": 125311920714,
-    "prior_value": 118329987308
+    "institutional_flow_pct": 0.2396,
+    "current_value": 155330533400,
+    "prior_value": 125311920714
   },
   "AON": {
-    "institutional_flow_pct": 0.169,
-    "current_value": 73431974662,
-    "prior_value": 62814554862
+    "institutional_flow_pct": -0.1975,
+    "current_value": 58929495736,
+    "prior_value": 73431974662
   },
   "AOS": {
-    "institutional_flow_pct": 0.7139,
-    "current_value": 5228768,
-    "prior_value": 3050858
+    "institutional_flow_pct": 2.6122,
+    "current_value": 18887508,
+    "prior_value": 5228768
   },
   "APA": {
-    "institutional_flow_pct": 1.0684,
-    "current_value": 16571915768,
-    "prior_value": 8011897349
+    "institutional_flow_pct": -0.302,
+    "current_value": 11566839897,
+    "prior_value": 16571915768
   },
   "APD": {
-    "institutional_flow_pct": -0.1486,
-    "current_value": 1504307915,
-    "prior_value": 1766826200
+    "institutional_flow_pct": -0.0866,
+    "current_value": 1374081379,
+    "prior_value": 1504307915
   },
   "APH": {
-    "institutional_flow_pct": -0.6204,
-    "current_value": 1085065399,
-    "prior_value": 2858722228
+    "institutional_flow_pct": 0.3377,
+    "current_value": 1451474626,
+    "prior_value": 1085065399
   },
   "APO": {
-    "institutional_flow_pct": -0.1882,
-    "current_value": 3815307940,
-    "prior_value": 4699543227
+    "institutional_flow_pct": 0.0289,
+    "current_value": 3925689671,
+    "prior_value": 3815307940
   },
   "APP": {
-    "institutional_flow_pct": -0.392,
-    "current_value": 133649861,
-    "prior_value": 219805910
+    "institutional_flow_pct": 0.1796,
+    "current_value": 157658052,
+    "prior_value": 133649861
   },
   "APTV": {
-    "institutional_flow_pct": 0.0134,
-    "current_value": 16319467638,
-    "prior_value": 16103774604
+    "institutional_flow_pct": -0.1647,
+    "current_value": 13631433597,
+    "prior_value": 16319467638
   },
   "ARE": {
-    "institutional_flow_pct": -0.1357,
-    "current_value": 175809452,
-    "prior_value": 203416578
+    "institutional_flow_pct": 0.0458,
+    "current_value": 183867528,
+    "prior_value": 175809452
   },
   "ARES": {
-    "institutional_flow_pct": -0.1711,
-    "current_value": 26300399460,
-    "prior_value": 31728792846
+    "institutional_flow_pct": -0.0694,
+    "current_value": 24475096679,
+    "prior_value": 26300399460
   },
   "ATO": {
-    "institutional_flow_pct": 0.0712,
-    "current_value": 126572623,
-    "prior_value": 118155498
+    "institutional_flow_pct": 0.1547,
+    "current_value": 146158469,
+    "prior_value": 126572623
   },
   "AVGO": {
-    "institutional_flow_pct": 0.0485,
-    "current_value": 1339242139308,
-    "prior_value": 1277281768161
+    "institutional_flow_pct": 0.0828,
+    "current_value": 1450077173540,
+    "prior_value": 1339242139308
   },
   "AVY": {
-    "institutional_flow_pct": -0.2824,
-    "current_value": 59547447,
-    "prior_value": 82982732
+    "institutional_flow_pct": -0.2465,
+    "current_value": 44869909,
+    "prior_value": 59547447
   },
   "AWK": {
-    "institutional_flow_pct": -0.4608,
-    "current_value": 2628135,
-    "prior_value": 4874238
+    "institutional_flow_pct": -0.4369,
+    "current_value": 1479846,
+    "prior_value": 2628135
   },
   "AXON": {
-    "institutional_flow_pct": -0.1045,
-    "current_value": 34965817478,
-    "prior_value": 39045488238
+    "institutional_flow_pct": 0.2235,
+    "current_value": 42782268687,
+    "prior_value": 34965817478
   },
   "AXP": {
-    "institutional_flow_pct": -0.1268,
-    "current_value": 1484858438,
-    "prior_value": 1700392849
+    "institutional_flow_pct": 0.9337,
+    "current_value": 2871257107,
+    "prior_value": 1484858438
   },
   "AZO": {
-    "institutional_flow_pct": 0.2464,
-    "current_value": 67062555077,
-    "prior_value": 53807048614
+    "institutional_flow_pct": -0.2109,
+    "current_value": 52920613661,
+    "prior_value": 67062555077
   },
   "BA": {
-    "institutional_flow_pct": -0.1183,
-    "current_value": 2807044,
-    "prior_value": 3183631
+    "institutional_flow_pct": 107.167,
+    "current_value": 303629480,
+    "prior_value": 2807044
   },
   "BAC": {
-    "institutional_flow_pct": -0.0478,
-    "current_value": 1702253493,
-    "prior_value": 1787754629
+    "institutional_flow_pct": -0.0698,
+    "current_value": 1583479750,
+    "prior_value": 1702253493
   },
   "BALL": {
-    "institutional_flow_pct": 0.0666,
-    "current_value": 94258199,
-    "prior_value": 88370384
+    "institutional_flow_pct": -0.0267,
+    "current_value": 91745969,
+    "prior_value": 94258199
   },
   "BAX": {
-    "institutional_flow_pct": -0.094,
-    "current_value": 1490101324,
-    "prior_value": 1644773051
+    "institutional_flow_pct": 0.2818,
+    "current_value": 1909954495,
+    "prior_value": 1490101324
   },
   "BBY": {
-    "institutional_flow_pct": 0.1516,
-    "current_value": 16548064942,
-    "prior_value": 14369666547
+    "institutional_flow_pct": -0.0173,
+    "current_value": 16261267906,
+    "prior_value": 16548064942
   },
   "BDX": {
-    "institutional_flow_pct": -0.2198,
-    "current_value": 259136837,
-    "prior_value": 332157468
+    "institutional_flow_pct": -0.0391,
+    "current_value": 249004370,
+    "prior_value": 259136837
+  },
+  "BE": {
+    "institutional_flow_pct": 1.7775,
+    "current_value": 137394619,
+    "prior_value": 49466188
   },
   "BEN": {
-    "institutional_flow_pct": 0.2162,
-    "current_value": 8098726009,
-    "prior_value": 6659103165
+    "institutional_flow_pct": 0.1551,
+    "current_value": 144189204,
+    "prior_value": 124831569
   },
   "BF-B": {
-    "institutional_flow_pct": 0.1642,
-    "current_value": 6317702842,
-    "prior_value": 5426662482
+    "institutional_flow_pct": -0.1634,
+    "current_value": 5285568949,
+    "prior_value": 6317702842
   },
   "BG": {
-    "institutional_flow_pct": 1.6994,
-    "current_value": 178016881,
-    "prior_value": 65946688
+    "institutional_flow_pct": 1.0895,
+    "current_value": 371966153,
+    "prior_value": 178016881
   },
   "BIIB": {
-    "institutional_flow_pct": 0.2759,
-    "current_value": 32416922915,
-    "prior_value": 25407838600
+    "institutional_flow_pct": -0.0081,
+    "current_value": 32155402691,
+    "prior_value": 32416922915
   },
   "BKR": {
-    "institutional_flow_pct": 0.4811,
-    "current_value": 56828580488,
-    "prior_value": 38370303669
-  },
-  "BLDR": {
-    "institutional_flow_pct": 0.0372,
-    "current_value": 11390263516,
-    "prior_value": 10981569427
+    "institutional_flow_pct": -0.162,
+    "current_value": 47624284841,
+    "prior_value": 56828580488
   },
   "BLK": {
-    "institutional_flow_pct": 0.0692,
-    "current_value": 139876984554,
-    "prior_value": 130824560889
+    "institutional_flow_pct": -0.1057,
+    "current_value": 125088951239,
+    "prior_value": 139876984554
   },
   "BMY": {
-    "institutional_flow_pct": -0.0177,
-    "current_value": 140846103,
-    "prior_value": 143387423
+    "institutional_flow_pct": -0.0391,
+    "current_value": 135332881,
+    "prior_value": 140846103
   },
   "BR": {
-    "institutional_flow_pct": -0.3655,
-    "current_value": 785485312,
-    "prior_value": 1237926049
+    "institutional_flow_pct": -0.1467,
+    "current_value": 670247719,
+    "prior_value": 785485312
   },
   "BRK-B": {
-    "institutional_flow_pct": -0.0467,
-    "current_value": 803618,
-    "prior_value": 842944
+    "institutional_flow_pct": 0.4714,
+    "current_value": 1182422,
+    "prior_value": 803618
   },
   "BRO": {
-    "institutional_flow_pct": 0.0495,
-    "current_value": 21770236547,
-    "prior_value": 20742849567
+    "institutional_flow_pct": -0.1052,
+    "current_value": 19479367070,
+    "prior_value": 21770236547
   },
   "BSX": {
-    "institutional_flow_pct": -0.3155,
-    "current_value": 399789679,
-    "prior_value": 584019429
+    "institutional_flow_pct": -0.5451,
+    "current_value": 181861079,
+    "prior_value": 399789679
   },
   "BX": {
-    "institutional_flow_pct": 0.0798,
-    "current_value": 89306012996,
-    "prior_value": 82708886473
+    "institutional_flow_pct": -0.1934,
+    "current_value": 72033960789,
+    "prior_value": 89306012996
   },
   "BXP": {
-    "institutional_flow_pct": -0.0532,
-    "current_value": 10390564014,
-    "prior_value": 10974423207
+    "institutional_flow_pct": 0.0786,
+    "current_value": 11207770200,
+    "prior_value": 10390564014
   },
   "C": {
-    "institutional_flow_pct": 0.1108,
-    "current_value": 194094509614,
-    "prior_value": 174734233313
+    "institutional_flow_pct": 0.0379,
+    "current_value": 201451795493,
+    "prior_value": 194094509614
   },
   "CAH": {
-    "institutional_flow_pct": 0.138,
-    "current_value": 48424089600,
-    "prior_value": 42553697726
+    "institutional_flow_pct": 0.0247,
+    "current_value": 49619424769,
+    "prior_value": 48424089600
   },
   "CARR": {
-    "institutional_flow_pct": 0.2628,
-    "current_value": 43139050308,
-    "prior_value": 34162183709
+    "institutional_flow_pct": 0.0992,
+    "current_value": 47416535045,
+    "prior_value": 43139050308
   },
   "CASY": {
-    "institutional_flow_pct": -0.2355,
-    "current_value": 255745928,
-    "prior_value": 334517744
+    "institutional_flow_pct": -0.0105,
+    "current_value": 253057218,
+    "prior_value": 255745928
   },
   "CAT": {
-    "institutional_flow_pct": 0.4404,
-    "current_value": 278800887418,
-    "prior_value": 193554329760
+    "institutional_flow_pct": 0.3389,
+    "current_value": 373276217746,
+    "prior_value": 278800887418
   },
   "CB": {
-    "institutional_flow_pct": -0.8471,
-    "current_value": 15258998748,
-    "prior_value": 99804977093
+    "institutional_flow_pct": 5.3885,
+    "current_value": 97481738001,
+    "prior_value": 15258998748
   },
   "CBOE": {
-    "institutional_flow_pct": 0.128,
-    "current_value": 1763926024,
-    "prior_value": 1563814895
+    "institutional_flow_pct": -0.0567,
+    "current_value": 1663992777,
+    "prior_value": 1763926024
   },
   "CBRE": {
-    "institutional_flow_pct": -0.0436,
-    "current_value": 41212633508,
-    "prior_value": 43090003529
+    "institutional_flow_pct": -0.1163,
+    "current_value": 36418363613,
+    "prior_value": 41212633508
   },
   "CCI": {
-    "institutional_flow_pct": 0.1998,
-    "current_value": 39909094883,
-    "prior_value": 33261743960
+    "institutional_flow_pct": -0.2499,
+    "current_value": 29936010177,
+    "prior_value": 39909094883
   },
   "CCL": {
-    "institutional_flow_pct": -0.517,
-    "current_value": 83505491,
-    "prior_value": 172882972
+    "institutional_flow_pct": -0.3587,
+    "current_value": 53551822,
+    "prior_value": 83505491
   },
   "CDNS": {
-    "institutional_flow_pct": -0.0029,
-    "current_value": 2873747786,
-    "prior_value": 2881963317
+    "institutional_flow_pct": 0.3172,
+    "current_value": 3785417493,
+    "prior_value": 2873747786
   },
   "CDW": {
-    "institutional_flow_pct": -0.2501,
-    "current_value": 155195082,
-    "prior_value": 206955883
+    "institutional_flow_pct": -0.0362,
+    "current_value": 149574110,
+    "prior_value": 155195082
   },
   "CF": {
-    "institutional_flow_pct": 0.7503,
-    "current_value": 2137063748,
-    "prior_value": 1220951122
+    "institutional_flow_pct": -0.0734,
+    "current_value": 1980197259,
+    "prior_value": 2137063748
   },
   "CFG": {
-    "institutional_flow_pct": 0.1906,
-    "current_value": 2481228897,
-    "prior_value": 2084066626
+    "institutional_flow_pct": 0.0865,
+    "current_value": 2695948441,
+    "prior_value": 2481228897
   },
   "CHD": {
-    "institutional_flow_pct": 0.0434,
-    "current_value": 13953205,
-    "prior_value": 13372967
+    "institutional_flow_pct": -0.0219,
+    "current_value": 13646995,
+    "prior_value": 13953205
   },
   "CHRW": {
-    "institutional_flow_pct": 0.3313,
-    "current_value": 1406992244,
-    "prior_value": 1056892733
+    "institutional_flow_pct": 0.2491,
+    "current_value": 1757410927,
+    "prior_value": 1406992244
   },
   "CHTR": {
-    "institutional_flow_pct": 5.5867,
-    "current_value": 23354049869,
-    "prior_value": 3545658127
+    "institutional_flow_pct": -0.3219,
+    "current_value": 15836943227,
+    "prior_value": 23354049869
   },
   "CI": {
-    "institutional_flow_pct": 0.133,
-    "current_value": 72235320863,
-    "prior_value": 63756798451
+    "institutional_flow_pct": -0.0793,
+    "current_value": 66505116991,
+    "prior_value": 72235320863
   },
   "CIEN": {
-    "institutional_flow_pct": 0.4052,
-    "current_value": 90731064,
-    "prior_value": 64567271
+    "institutional_flow_pct": 0.7745,
+    "current_value": 161001997,
+    "prior_value": 90731064
   },
   "CL": {
-    "institutional_flow_pct": -0.0289,
-    "current_value": 192346984,
-    "prior_value": 198068967
+    "institutional_flow_pct": 0.0282,
+    "current_value": 197766182,
+    "prior_value": 192346984
   },
   "CMCSA": {
-    "institutional_flow_pct": -0.4839,
-    "current_value": 170097781,
-    "prior_value": 329596027
+    "institutional_flow_pct": 0.2139,
+    "current_value": 206477561,
+    "prior_value": 170097781
   },
   "CME": {
-    "institutional_flow_pct": 0.3138,
-    "current_value": 111757048605,
-    "prior_value": 85063345331
+    "institutional_flow_pct": -0.3358,
+    "current_value": 74229248254,
+    "prior_value": 111757048605
   },
   "CMG": {
-    "institutional_flow_pct": 0.0563,
-    "current_value": 46559588872,
-    "prior_value": 44078806410
+    "institutional_flow_pct": -0.123,
+    "current_value": 40832368166,
+    "prior_value": 46559588872
   },
   "CMI": {
-    "institutional_flow_pct": 0.2411,
-    "current_value": 75227523887,
-    "prior_value": 60612849091
+    "institutional_flow_pct": 0.1258,
+    "current_value": 84694636244,
+    "prior_value": 75227523887
   },
   "CMS": {
-    "institutional_flow_pct": -0.4734,
-    "current_value": 165322945,
-    "prior_value": 313958484
+    "institutional_flow_pct": -0.5322,
+    "current_value": 77334104,
+    "prior_value": 165322945
   },
   "CNC": {
-    "institutional_flow_pct": -0.1332,
-    "current_value": 205655623,
-    "prior_value": 237253235
+    "institutional_flow_pct": 0.9971,
+    "current_value": 410720191,
+    "prior_value": 205655623
   },
   "COHR": {
-    "institutional_flow_pct": 0.5091,
-    "current_value": 47672221417,
-    "prior_value": 31590857157
+    "institutional_flow_pct": 0.5143,
+    "current_value": 72188148815,
+    "prior_value": 47672221417
   },
   "COIN": {
-    "institutional_flow_pct": -0.1326,
-    "current_value": 49276198754,
-    "prior_value": 56811425993
+    "institutional_flow_pct": -0.3006,
+    "current_value": 34463662235,
+    "prior_value": 49276198754
   },
   "COO": {
-    "institutional_flow_pct": -0.173,
-    "current_value": 35304438,
-    "prior_value": 42691156
+    "institutional_flow_pct": 0.1158,
+    "current_value": 39393687,
+    "prior_value": 35304438
   },
   "COP": {
-    "institutional_flow_pct": 0.6613,
-    "current_value": 156930950717,
-    "prior_value": 94463074003
+    "institutional_flow_pct": -0.2972,
+    "current_value": 110293208258,
+    "prior_value": 156930950717
   },
   "COR": {
-    "institutional_flow_pct": -0.0148,
-    "current_value": 57088926936,
-    "prior_value": 57948031591
+    "institutional_flow_pct": -0.1443,
+    "current_value": 48850863798,
+    "prior_value": 57088926936
   },
   "COST": {
-    "institutional_flow_pct": 213.0512,
-    "current_value": 300556243637,
-    "prior_value": 1404132687
+    "institutional_flow_pct": -0.0372,
+    "current_value": 289377528799,
+    "prior_value": 300556243637
   },
   "CPAY": {
-    "institutional_flow_pct": 0.0717,
-    "current_value": 20207792491,
-    "prior_value": 18856433510
+    "institutional_flow_pct": 0.0224,
+    "current_value": 20659587223,
+    "prior_value": 20207792491
   },
   "CPRT": {
-    "institutional_flow_pct": 0.0342,
-    "current_value": 31592155912,
-    "prior_value": 30548708833
+    "institutional_flow_pct": -0.2822,
+    "current_value": 22676932982,
+    "prior_value": 31592155912
   },
   "CPT": {
-    "institutional_flow_pct": -0.1023,
-    "current_value": 1035555639,
-    "prior_value": 1153515642
+    "institutional_flow_pct": 0.1981,
+    "current_value": 1240719742,
+    "prior_value": 1035555639
   },
   "CRH": {
-    "institutional_flow_pct": 0.1449,
-    "current_value": 80353542670,
-    "prior_value": 70182823743
+    "institutional_flow_pct": -0.2561,
+    "current_value": 59777521297,
+    "prior_value": 80353542670
   },
   "CRM": {
-    "institutional_flow_pct": -0.0668,
-    "current_value": 196844724577,
-    "prior_value": 210936256748
+    "institutional_flow_pct": -0.3572,
+    "current_value": 126533938680,
+    "prior_value": 196844724577
   },
   "CRWD": {
-    "institutional_flow_pct": -0.0922,
-    "current_value": 2403533384,
-    "prior_value": 2647523972
+    "institutional_flow_pct": 1.1592,
+    "current_value": 5189683118,
+    "prior_value": 2403533384
   },
   "CSCO": {
-    "institutional_flow_pct": 0.0043,
-    "current_value": 25123354056,
-    "prior_value": 25014711129
+    "institutional_flow_pct": 0.5387,
+    "current_value": 38656177191,
+    "prior_value": 25123354056
   },
   "CSGP": {
-    "institutional_flow_pct": -0.232,
-    "current_value": 20964874436,
-    "prior_value": 27298598507
+    "institutional_flow_pct": -0.4181,
+    "current_value": 12199536924,
+    "prior_value": 20964874436
   },
   "CSX": {
-    "institutional_flow_pct": 0.0057,
-    "current_value": 279196589,
-    "prior_value": 277614080
+    "institutional_flow_pct": 0.1252,
+    "current_value": 314144684,
+    "prior_value": 279196589
   },
   "CTAS": {
-    "institutional_flow_pct": -0.5736,
-    "current_value": 517201785,
-    "prior_value": 1212808878
+    "institutional_flow_pct": 0.1594,
+    "current_value": 599643534,
+    "prior_value": 517201785
   },
   "CTSH": {
-    "institutional_flow_pct": -0.324,
-    "current_value": 1620258780,
-    "prior_value": 2396827122
-  },
-  "CTVA": {
-    "institutional_flow_pct": 0.4292,
-    "current_value": 55437164679,
-    "prior_value": 38789184346
+    "institutional_flow_pct": -0.4892,
+    "current_value": 827668125,
+    "prior_value": 1620258780
   },
   "CVNA": {
-    "institutional_flow_pct": -0.1175,
-    "current_value": 61125949030,
-    "prior_value": 69261674547
+    "institutional_flow_pct": -0.1518,
+    "current_value": 51847586512,
+    "prior_value": 61125949030
   },
   "CVS": {
-    "institutional_flow_pct": -0.4458,
-    "current_value": 1298003381,
-    "prior_value": 2342211687
+    "institutional_flow_pct": 0.6506,
+    "current_value": 2142443703,
+    "prior_value": 1298003381
   },
   "CVX": {
-    "institutional_flow_pct": 294.2612,
-    "current_value": 290103937619,
-    "prior_value": 982533151
+    "institutional_flow_pct": -0.2041,
+    "current_value": 230882410813,
+    "prior_value": 290103937619
   },
   "D": {
-    "institutional_flow_pct": 0.1692,
-    "current_value": 50415969579,
-    "prior_value": 43119662084
+    "institutional_flow_pct": -0.0315,
+    "current_value": 48825780162,
+    "prior_value": 50415969579
   },
   "DAL": {
-    "institutional_flow_pct": 8.8272,
-    "current_value": 43633560407,
-    "prior_value": 4440071988
+    "institutional_flow_pct": 0.286,
+    "current_value": 56112258711,
+    "prior_value": 43633560407
   },
   "DASH": {
-    "institutional_flow_pct": -0.1454,
-    "current_value": 68637221121,
-    "prior_value": 80314063933
+    "institutional_flow_pct": 0.0184,
+    "current_value": 69899812928,
+    "prior_value": 68637221121
   },
   "DD": {
-    "institutional_flow_pct": 0.3859,
-    "current_value": 18764726468,
-    "prior_value": 13539897974
+    "institutional_flow_pct": -0.2689,
+    "current_value": 13718026446,
+    "prior_value": 18764726468
   },
   "DDOG": {
-    "institutional_flow_pct": 0.1319,
-    "current_value": 43566912154,
-    "prior_value": 38489454093
+    "institutional_flow_pct": 0.8475,
+    "current_value": 80491318842,
+    "prior_value": 43566912154
   },
   "DE": {
-    "institutional_flow_pct": -0.0522,
-    "current_value": 343769793,
-    "prior_value": 362713496
+    "institutional_flow_pct": 0.0363,
+    "current_value": 356254074,
+    "prior_value": 343769793
   },
   "DECK": {
-    "institutional_flow_pct": 0.1105,
-    "current_value": 81274628,
-    "prior_value": 73187439
+    "institutional_flow_pct": 0.0823,
+    "current_value": 87966154,
+    "prior_value": 81274628
   },
   "DELL": {
-    "institutional_flow_pct": 0.4809,
-    "current_value": 54583492280,
-    "prior_value": 36858199333
+    "institutional_flow_pct": 1.1332,
+    "current_value": 116435997699,
+    "prior_value": 54583492280
   },
   "DG": {
-    "institutional_flow_pct": -0.1678,
-    "current_value": 226373775,
-    "prior_value": 272033025
+    "institutional_flow_pct": -0.1062,
+    "current_value": 202330575,
+    "prior_value": 226373775
   },
   "DGX": {
-    "institutional_flow_pct": -0.3279,
-    "current_value": 52675912,
-    "prior_value": 78375625
+    "institutional_flow_pct": -0.1477,
+    "current_value": 44897519,
+    "prior_value": 52675912
   },
   "DHI": {
-    "institutional_flow_pct": -0.0573,
-    "current_value": 2356756744,
-    "prior_value": 2500062628
+    "institutional_flow_pct": 0.084,
+    "current_value": 2554653538,
+    "prior_value": 2356756744
   },
   "DHR": {
-    "institutional_flow_pct": -0.6991,
-    "current_value": 34443522227,
-    "prior_value": 114480573495
+    "institutional_flow_pct": -0.8651,
+    "current_value": 4648028818,
+    "prior_value": 34443522227
   },
   "DIS": {
-    "institutional_flow_pct": -0.6945,
-    "current_value": 1397510,
-    "prior_value": 4574010
+    "institutional_flow_pct": -0.0013,
+    "current_value": 1395625,
+    "prior_value": 1397510
   },
   "DLR": {
-    "institutional_flow_pct": 0.131,
-    "current_value": 4615480696,
-    "prior_value": 4080845533
+    "institutional_flow_pct": 0.0416,
+    "current_value": 4807449862,
+    "prior_value": 4615480696
   },
   "DLTR": {
-    "institutional_flow_pct": -0.0123,
-    "current_value": 26224199633,
-    "prior_value": 26550892041
+    "institutional_flow_pct": -0.0561,
+    "current_value": 24752332469,
+    "prior_value": 26224199633
   },
   "DOC": {
-    "institutional_flow_pct": 0.1732,
-    "current_value": 12948832195,
-    "prior_value": 11036806872
+    "institutional_flow_pct": 0.1073,
+    "current_value": 14338555307,
+    "prior_value": 12948832195
   },
   "DOV": {
-    "institutional_flow_pct": -0.0124,
-    "current_value": 55879449,
-    "prior_value": 56578418
+    "institutional_flow_pct": 0.0311,
+    "current_value": 57614906,
+    "prior_value": 55879449
   },
   "DOW": {
-    "institutional_flow_pct": -0.5326,
-    "current_value": 6676408351,
-    "prior_value": 14285511373
+    "institutional_flow_pct": -0.578,
+    "current_value": 2817472564,
+    "prior_value": 6676408351
   },
   "DPZ": {
-    "institutional_flow_pct": 0.0371,
-    "current_value": 1059486424,
-    "prior_value": 1021560550
+    "institutional_flow_pct": -0.0412,
+    "current_value": 1015846030,
+    "prior_value": 1059486424
   },
   "DRI": {
-    "institutional_flow_pct": 0.1838,
-    "current_value": 25482100459,
-    "prior_value": 21524942770
+    "institutional_flow_pct": -0.0519,
+    "current_value": 24159842541,
+    "prior_value": 25482100459
   },
   "DTE": {
-    "institutional_flow_pct": 0.1385,
-    "current_value": 2095854259,
-    "prior_value": 1840842909
+    "institutional_flow_pct": 0.4859,
+    "current_value": 3114284692,
+    "prior_value": 2095854259
   },
   "DVA": {
-    "institutional_flow_pct": 0.4027,
-    "current_value": 10686674233,
-    "prior_value": 7618552243
+    "institutional_flow_pct": 0.2828,
+    "current_value": 13709157367,
+    "prior_value": 10686674233
   },
   "DVN": {
-    "institutional_flow_pct": 0.5357,
-    "current_value": 184456370,
-    "prior_value": 120111922
+    "institutional_flow_pct": 0.0943,
+    "current_value": 201855099,
+    "prior_value": 184456370
   },
   "DXCM": {
-    "institutional_flow_pct": 0.1793,
-    "current_value": 31646705543,
-    "prior_value": 26835654526
+    "institutional_flow_pct": -0.119,
+    "current_value": 27882205547,
+    "prior_value": 31646705543
   },
   "EBAY": {
-    "institutional_flow_pct": 0.2061,
-    "current_value": 42720772786,
-    "prior_value": 35421012851
+    "institutional_flow_pct": 0.1191,
+    "current_value": 47810891185,
+    "prior_value": 42720772786
   },
   "ECHO": {
-    "institutional_flow_pct": -0.468,
-    "current_value": 207430795,
-    "prior_value": 389885719
+    "institutional_flow_pct": -0.139,
+    "current_value": 178590246,
+    "prior_value": 207430795
   },
   "ECL": {
-    "institutional_flow_pct": 0.2825,
-    "current_value": 75802186765,
-    "prior_value": 59106274006
+    "institutional_flow_pct": -0.1558,
+    "current_value": 63993728952,
+    "prior_value": 75802186765
   },
   "ED": {
-    "institutional_flow_pct": 0.4035,
-    "current_value": 35238709672,
-    "prior_value": 25106958973
+    "institutional_flow_pct": -0.1237,
+    "current_value": 30880035132,
+    "prior_value": 35238709672
   },
   "EFX": {
-    "institutional_flow_pct": 0.0877,
-    "current_value": 25554376064,
-    "prior_value": 23492898171
+    "institutional_flow_pct": -0.2544,
+    "current_value": 19054150972,
+    "prior_value": 25554376064
   },
   "EG": {
-    "institutional_flow_pct": 0.1222,
-    "current_value": 14258298708,
-    "prior_value": 12706100760
+    "institutional_flow_pct": 0.0025,
+    "current_value": 14293954002,
+    "prior_value": 14258298708
   },
   "EIX": {
-    "institutional_flow_pct": 0.2243,
-    "current_value": 2655261778,
-    "prior_value": 2168811203
+    "institutional_flow_pct": 0.1428,
+    "current_value": 3034500726,
+    "prior_value": 2655261778
   },
   "ELV": {
-    "institutional_flow_pct": 0.4929,
-    "current_value": 13192278413,
-    "prior_value": 8836853951
+    "institutional_flow_pct": -0.3208,
+    "current_value": 8960630599,
+    "prior_value": 13192278413
   },
   "EME": {
-    "institutional_flow_pct": 0.2972,
-    "current_value": 32990495856,
-    "prior_value": 25432061007
+    "institutional_flow_pct": 0.0305,
+    "current_value": 33997386531,
+    "prior_value": 32990495856
   },
   "EMR": {
-    "institutional_flow_pct": -0.3315,
-    "current_value": 136989796,
-    "prior_value": 204925474
+    "institutional_flow_pct": 0.7937,
+    "current_value": 245722415,
+    "prior_value": 136989796
   },
   "EOG": {
-    "institutional_flow_pct": 0.5001,
-    "current_value": 7832299964,
-    "prior_value": 5221144089
+    "institutional_flow_pct": 0.0646,
+    "current_value": 8338633821,
+    "prior_value": 7832299964
   },
   "EQIX": {
-    "institutional_flow_pct": 0.4883,
-    "current_value": 100205765981,
-    "prior_value": 67327864496
+    "institutional_flow_pct": 0.0008,
+    "current_value": 100288713104,
+    "prior_value": 100205765981
   },
   "EQT": {
-    "institutional_flow_pct": 0.2146,
-    "current_value": 207355375,
-    "prior_value": 170714067
+    "institutional_flow_pct": -0.1442,
+    "current_value": 177449505,
+    "prior_value": 207355375
   },
   "ERIE": {
-    "institutional_flow_pct": -0.3168,
-    "current_value": 4725484,
-    "prior_value": 6916855
+    "institutional_flow_pct": -0.0391,
+    "current_value": 4540594,
+    "prior_value": 4725484
   },
   "ESS": {
-    "institutional_flow_pct": -0.3033,
-    "current_value": 1017410216,
-    "prior_value": 1460308796
+    "institutional_flow_pct": 0.2932,
+    "current_value": 1315666097,
+    "prior_value": 1017410216
   },
   "ETN": {
-    "institutional_flow_pct": 0.3238,
-    "current_value": 657501916,
-    "prior_value": 496674060
+    "institutional_flow_pct": 0.2505,
+    "current_value": 822206959,
+    "prior_value": 657501916
   },
   "ETR": {
-    "institutional_flow_pct": 0.2564,
-    "current_value": 239016445,
-    "prior_value": 190234911
+    "institutional_flow_pct": 0.3711,
+    "current_value": 327705609,
+    "prior_value": 239016445
   },
   "EVRG": {
-    "institutional_flow_pct": 0.2529,
-    "current_value": 20582593392,
-    "prior_value": 16428383069
+    "institutional_flow_pct": -0.0204,
+    "current_value": 20161969687,
+    "prior_value": 20582593392
   },
   "EXC": {
-    "institutional_flow_pct": -0.2782,
-    "current_value": 261565289,
-    "prior_value": 362392021
+    "institutional_flow_pct": -0.2352,
+    "current_value": 200035628,
+    "prior_value": 261565289
   },
   "EXE": {
-    "institutional_flow_pct": 0.072,
-    "current_value": 23993531749,
-    "prior_value": 22382493839
+    "institutional_flow_pct": -0.2436,
+    "current_value": 18149142185,
+    "prior_value": 23993531749
   },
   "EXPE": {
-    "institutional_flow_pct": -0.1063,
-    "current_value": 31603610582,
-    "prior_value": 35361223730
+    "institutional_flow_pct": -0.0053,
+    "current_value": 31435493661,
+    "prior_value": 31603610582
   },
   "EXR": {
-    "institutional_flow_pct": 0.1535,
-    "current_value": 28709236402,
-    "prior_value": 24889860123
+    "institutional_flow_pct": -0.0018,
+    "current_value": 28658003226,
+    "prior_value": 28709236402
   },
   "F": {
-    "institutional_flow_pct": -0.3441,
-    "current_value": 107359942,
-    "prior_value": 163677768
+    "institutional_flow_pct": 0.2464,
+    "current_value": 133815850,
+    "prior_value": 107359942
   },
   "FANG": {
-    "institutional_flow_pct": 0.5915,
-    "current_value": 43018924409,
-    "prior_value": 27030172669
+    "institutional_flow_pct": -0.1507,
+    "current_value": 36537293360,
+    "prior_value": 43018924409
   },
   "FAST": {
-    "institutional_flow_pct": -0.1978,
-    "current_value": 358273745,
-    "prior_value": 446597371
+    "institutional_flow_pct": 0.0778,
+    "current_value": 386162981,
+    "prior_value": 358273745
   },
   "FCX": {
-    "institutional_flow_pct": -0.7186,
-    "current_value": 18120073906,
-    "prior_value": 64382968731
+    "institutional_flow_pct": -0.5048,
+    "current_value": 8973398314,
+    "prior_value": 18120073906
   },
   "FDS": {
-    "institutional_flow_pct": -0.1187,
-    "current_value": 1305311153,
-    "prior_value": 1481134371
+    "institutional_flow_pct": -0.0516,
+    "current_value": 1237926926,
+    "prior_value": 1305311153
   },
   "FDX": {
-    "institutional_flow_pct": 0.3345,
-    "current_value": 752019729,
-    "prior_value": 563506211
+    "institutional_flow_pct": -0.2992,
+    "current_value": 526999431,
+    "prior_value": 752019729
   },
   "FE": {
-    "institutional_flow_pct": 0.2562,
-    "current_value": 30055220581,
-    "prior_value": 23925325746
+    "institutional_flow_pct": -0.1092,
+    "current_value": 26773740726,
+    "prior_value": 30055220581
   },
   "FERG": {
-    "institutional_flow_pct": 0.2142,
-    "current_value": 46510459195,
-    "prior_value": 38306346623
+    "institutional_flow_pct": -0.087,
+    "current_value": 42465263480,
+    "prior_value": 46510459195
   },
   "FFIV": {
-    "institutional_flow_pct": 0.2499,
-    "current_value": 18776640245,
-    "prior_value": 15023010790
+    "institutional_flow_pct": 0.2172,
+    "current_value": 22855122121,
+    "prior_value": 18776640245
   },
   "FICO": {
-    "institutional_flow_pct": -0.4449,
-    "current_value": 116379495,
-    "prior_value": 209638449
+    "institutional_flow_pct": -0.0546,
+    "current_value": 110028424,
+    "prior_value": 116379495
   },
   "FISV": {
-    "institutional_flow_pct": 0.1647,
-    "current_value": 39869465003,
-    "prior_value": 34230987930
+    "institutional_flow_pct": -0.3383,
+    "current_value": 26380283482,
+    "prior_value": 39869465003
   },
   "FITB": {
-    "institutional_flow_pct": 0.4354,
-    "current_value": 40330710142,
-    "prior_value": 28097599239
+    "institutional_flow_pct": 0.1434,
+    "current_value": 46115752215,
+    "prior_value": 40330710142
   },
   "FIX": {
-    "institutional_flow_pct": 0.1852,
-    "current_value": 4283763315,
-    "prior_value": 3614337500
+    "institutional_flow_pct": 0.2721,
+    "current_value": 5449349664,
+    "prior_value": 4283763315
   },
   "FLEX": {
-    "institutional_flow_pct": -0.8695,
-    "current_value": 2903016595,
-    "prior_value": 22247020558
+    "institutional_flow_pct": 17.5455,
+    "current_value": 53838002112,
+    "prior_value": 2903016595
   },
   "FOX": {
-    "institutional_flow_pct": -0.7827,
-    "current_value": 125712809,
-    "prior_value": 578471239
+    "institutional_flow_pct": 2.5059,
+    "current_value": 440738537,
+    "prior_value": 125712809
   },
   "FOXA": {
-    "institutional_flow_pct": -0.7827,
-    "current_value": 125712809,
-    "prior_value": 578471239
+    "institutional_flow_pct": 2.5059,
+    "current_value": 440738537,
+    "prior_value": 125712809
   },
   "FRT": {
-    "institutional_flow_pct": 0.1705,
-    "current_value": 80528677,
-    "prior_value": 68796757
+    "institutional_flow_pct": 0.4914,
+    "current_value": 120099887,
+    "prior_value": 80528677
   },
   "FSLR": {
-    "institutional_flow_pct": -0.1317,
-    "current_value": 33963955007,
-    "prior_value": 39116267864
+    "institutional_flow_pct": 0.0486,
+    "current_value": 35614603782,
+    "prior_value": 33963955007
   },
   "FTNT": {
-    "institutional_flow_pct": 0.1808,
-    "current_value": 47135953391,
-    "prior_value": 39920225356
+    "institutional_flow_pct": 0.6973,
+    "current_value": 80001704646,
+    "prior_value": 47135953391
   },
   "FTV": {
-    "institutional_flow_pct": -0.4004,
-    "current_value": 19952413,
-    "prior_value": 33274835
+    "institutional_flow_pct": 0.2222,
+    "current_value": 24386225,
+    "prior_value": 19952413
   },
   "GD": {
-    "institutional_flow_pct": -0.1358,
-    "current_value": 247889819,
-    "prior_value": 286838525
+    "institutional_flow_pct": 0.0382,
+    "current_value": 257353907,
+    "prior_value": 247889819
   },
   "GDDY": {
-    "institutional_flow_pct": -0.127,
-    "current_value": 13308418834,
-    "prior_value": 15244447405
+    "institutional_flow_pct": -0.2794,
+    "current_value": 9590589693,
+    "prior_value": 13308418834
   },
   "GE": {
-    "institutional_flow_pct": 0.081,
-    "current_value": 252987987730,
-    "prior_value": 234037544080
+    "institutional_flow_pct": 0.126,
+    "current_value": 284861671303,
+    "prior_value": 252987987730
   },
   "GEHC": {
-    "institutional_flow_pct": -0.337,
-    "current_value": 2890071364,
-    "prior_value": 4359219169
+    "institutional_flow_pct": 0.0886,
+    "current_value": 3146094441,
+    "prior_value": 2890071364
   },
   "GEN": {
-    "institutional_flow_pct": -0.1955,
-    "current_value": 11194173418,
-    "prior_value": 13915195961
+    "institutional_flow_pct": 0.2163,
+    "current_value": 13615161244,
+    "prior_value": 11194173418
   },
   "GEV": {
-    "institutional_flow_pct": 0.5476,
-    "current_value": 220243017221,
-    "prior_value": 142310316450
+    "institutional_flow_pct": 0.1828,
+    "current_value": 260503956273,
+    "prior_value": 220243017221
   },
   "GILD": {
-    "institutional_flow_pct": 0.3019,
-    "current_value": 172147798287,
-    "prior_value": 132224151024
+    "institutional_flow_pct": -0.1691,
+    "current_value": 143036696426,
+    "prior_value": 172147798287
   },
   "GIS": {
-    "institutional_flow_pct": 7.5206,
-    "current_value": 17949301096,
-    "prior_value": 2106566244
+    "institutional_flow_pct": -0.0471,
+    "current_value": 17104060962,
+    "prior_value": 17949301096
   },
   "GL": {
-    "institutional_flow_pct": 0.0891,
-    "current_value": 10055804731,
-    "prior_value": 9233006986
+    "institutional_flow_pct": 0.1771,
+    "current_value": 11836830479,
+    "prior_value": 10055804731
   },
   "GLW": {
-    "institutional_flow_pct": 0.5399,
-    "current_value": 130445293,
-    "prior_value": 84709999
-  },
-  "GM": {
-    "institutional_flow_pct": 0.0044,
-    "current_value": 407102632,
-    "prior_value": 405313478
+    "institutional_flow_pct": 0.9753,
+    "current_value": 257673256,
+    "prior_value": 130445293
   },
   "GOOG": {
-    "institutional_flow_pct": 0.13,
-    "current_value": 2561627747453,
-    "prior_value": 2266943424378
+    "institutional_flow_pct": 0.0837,
+    "current_value": 2776004040527,
+    "prior_value": 2561627747453
   },
   "GOOGL": {
-    "institutional_flow_pct": 0.13,
-    "current_value": 2561627747453,
-    "prior_value": 2266943424378
+    "institutional_flow_pct": 0.0837,
+    "current_value": 2776004040527,
+    "prior_value": 2561627747453
   },
   "GPC": {
-    "institutional_flow_pct": -0.5838,
-    "current_value": 37407238,
-    "prior_value": 89868724
+    "institutional_flow_pct": 3.0277,
+    "current_value": 150664438,
+    "prior_value": 37407238
   },
   "GPN": {
-    "institutional_flow_pct": -0.1468,
-    "current_value": 2050103627,
-    "prior_value": 2402978775
+    "institutional_flow_pct": 0.4995,
+    "current_value": 3074109874,
+    "prior_value": 2050103627
   },
   "GRMN": {
-    "institutional_flow_pct": 0.3655,
-    "current_value": 28847039086,
-    "prior_value": 21125267981
+    "institutional_flow_pct": -0.1135,
+    "current_value": 25573881256,
+    "prior_value": 28847039086
   },
   "GS": {
-    "institutional_flow_pct": 0.2879,
-    "current_value": 12576952,
-    "prior_value": 9765475
+    "institutional_flow_pct": 107.752,
+    "current_value": 1367768674,
+    "prior_value": 12576952
   },
   "GWW": {
-    "institutional_flow_pct": 0.2121,
-    "current_value": 41671139529,
-    "prior_value": 34377922333
+    "institutional_flow_pct": 0.2047,
+    "current_value": 50200024227,
+    "prior_value": 41671139529
   },
   "HAL": {
-    "institutional_flow_pct": 0.6849,
-    "current_value": 157260887,
-    "prior_value": 93335772
+    "institutional_flow_pct": -0.3812,
+    "current_value": 97310489,
+    "prior_value": 157260887
   },
   "HAS": {
-    "institutional_flow_pct": 0.3225,
-    "current_value": 14439897760,
-    "prior_value": 10918674708
+    "institutional_flow_pct": -0.1862,
+    "current_value": 11751108861,
+    "prior_value": 14439897760
   },
   "HCA": {
-    "institutional_flow_pct": 0.1576,
-    "current_value": 74547809557,
-    "prior_value": 64400265665
+    "institutional_flow_pct": -0.2984,
+    "current_value": 52301415813,
+    "prior_value": 74547809557
   },
   "HD": {
-    "institutional_flow_pct": 0.0395,
-    "current_value": 7043430,
-    "prior_value": 6775672
+    "institutional_flow_pct": 166.9145,
+    "current_value": 1182693761,
+    "prior_value": 7043430
   },
   "HIG": {
-    "institutional_flow_pct": -0.0468,
-    "current_value": 1696325,
-    "prior_value": 1779687
+    "institutional_flow_pct": -0.947,
+    "current_value": 89981,
+    "prior_value": 1696325
   },
   "HII": {
-    "institutional_flow_pct": -0.1319,
-    "current_value": 386859489,
-    "prior_value": 445623197
+    "institutional_flow_pct": -0.2667,
+    "current_value": 283677786,
+    "prior_value": 386859489
   },
   "HLT": {
-    "institutional_flow_pct": 0.0993,
-    "current_value": 2836809298,
-    "prior_value": 2580596964
+    "institutional_flow_pct": 0.0678,
+    "current_value": 3029146833,
+    "prior_value": 2836809298
   },
   "HON": {
-    "institutional_flow_pct": 0.1394,
-    "current_value": 10914337905,
-    "prior_value": 9579256734
+    "institutional_flow_pct": -0.3636,
+    "current_value": 6946074988,
+    "prior_value": 10914337905
   },
   "HOOD": {
-    "institutional_flow_pct": -0.2648,
-    "current_value": 1407943165,
-    "prior_value": 1915028754
+    "institutional_flow_pct": 0.3874,
+    "current_value": 1953400426,
+    "prior_value": 1407943165
   },
   "HPE": {
-    "institutional_flow_pct": -0.7729,
-    "current_value": 212402,
-    "prior_value": 935445
+    "institutional_flow_pct": 3.1889,
+    "current_value": 889727,
+    "prior_value": 212402
   },
   "HPQ": {
-    "institutional_flow_pct": 0.0809,
-    "current_value": 19898067529,
-    "prior_value": 18408846115
+    "institutional_flow_pct": -0.0062,
+    "current_value": 19775331641,
+    "prior_value": 19898067529
   },
   "HRL": {
-    "institutional_flow_pct": -0.0364,
-    "current_value": 13392350,
-    "prior_value": 13898353
+    "institutional_flow_pct": 1.3583,
+    "current_value": 31583040,
+    "prior_value": 13392350
   },
   "HSIC": {
-    "institutional_flow_pct": -0.8111,
-    "current_value": 1758755257,
-    "prior_value": 9310309450
+    "institutional_flow_pct": -0.0577,
+    "current_value": 1657216868,
+    "prior_value": 1758755257
   },
   "HST": {
-    "institutional_flow_pct": 0.2098,
-    "current_value": 12992230122,
-    "prior_value": 10739478159
+    "institutional_flow_pct": 0.1446,
+    "current_value": 14870758545,
+    "prior_value": 12992230122
   },
   "HSY": {
-    "institutional_flow_pct": 0.1217,
-    "current_value": 75371621,
-    "prior_value": 67194514
+    "institutional_flow_pct": 0.0003,
+    "current_value": 75393930,
+    "prior_value": 75371621
   },
   "HUBB": {
-    "institutional_flow_pct": 0.2624,
-    "current_value": 27720156484,
-    "prior_value": 21959029922
+    "institutional_flow_pct": -0.0146,
+    "current_value": 27314266778,
+    "prior_value": 27720156484
   },
   "HUM": {
-    "institutional_flow_pct": -0.1817,
-    "current_value": 28849903519,
-    "prior_value": 35256117367
+    "institutional_flow_pct": 0.7732,
+    "current_value": 51155848753,
+    "prior_value": 28849903519
   },
   "HWM": {
-    "institutional_flow_pct": 0.239,
-    "current_value": 91204331444,
-    "prior_value": 73608455659
+    "institutional_flow_pct": 0.0423,
+    "current_value": 95060606123,
+    "prior_value": 91204331444
   },
   "IBKR": {
-    "institutional_flow_pct": -0.0524,
-    "current_value": 461861173,
-    "prior_value": 487413626
+    "institutional_flow_pct": 2.1123,
+    "current_value": 1437440459,
+    "prior_value": 461861173
   },
   "IBM": {
-    "institutional_flow_pct": -0.15,
-    "current_value": 1841542456,
-    "prior_value": 2166461849
+    "institutional_flow_pct": 0.1255,
+    "current_value": 2072662853,
+    "prior_value": 1841542456
   },
   "ICE": {
-    "institutional_flow_pct": -0.1742,
-    "current_value": 4132351427,
-    "prior_value": 5004200428
+    "institutional_flow_pct": -0.1175,
+    "current_value": 3646613195,
+    "prior_value": 4132351427
   },
   "IDXX": {
-    "institutional_flow_pct": -0.1576,
-    "current_value": 4748833930,
-    "prior_value": 5636993820
+    "institutional_flow_pct": -0.1295,
+    "current_value": 4133951681,
+    "prior_value": 4748833930
   },
   "IEX": {
-    "institutional_flow_pct": 0.0384,
-    "current_value": 249844580,
-    "prior_value": 240596837
+    "institutional_flow_pct": 0.2819,
+    "current_value": 320280715,
+    "prior_value": 249844580
+  },
+  "ILMN": {
+    "institutional_flow_pct": 0.2491,
+    "current_value": 27967176980,
+    "prior_value": 22390526781
   },
   "INCY": {
-    "institutional_flow_pct": -0.064,
-    "current_value": 3050396190,
-    "prior_value": 3258846359
+    "institutional_flow_pct": 0.2002,
+    "current_value": 3660993250,
+    "prior_value": 3050396190
   },
   "INTC": {
-    "institutional_flow_pct": 0.2801,
-    "current_value": 909516641,
-    "prior_value": 710505413
+    "institutional_flow_pct": 1.9523,
+    "current_value": 2685143502,
+    "prior_value": 909516641
   },
   "INTU": {
-    "institutional_flow_pct": -0.1578,
-    "current_value": 134414275423,
-    "prior_value": 159605900031
+    "institutional_flow_pct": -0.48,
+    "current_value": 69889550877,
+    "prior_value": 134414275423
   },
   "INVH": {
-    "institutional_flow_pct": 0.1019,
-    "current_value": 16468273020,
-    "prior_value": 14945087472
+    "institutional_flow_pct": 0.0254,
+    "current_value": 16886071406,
+    "prior_value": 16468273020
   },
   "IP": {
-    "institutional_flow_pct": -0.3949,
-    "current_value": 18320540,
-    "prior_value": 30276640
+    "institutional_flow_pct": 1.9688,
+    "current_value": 54390539,
+    "prior_value": 18320540
   },
   "IQV": {
-    "institutional_flow_pct": -0.1414,
-    "current_value": 2385910379,
-    "prior_value": 2778746740
+    "institutional_flow_pct": 0.1142,
+    "current_value": 2658268337,
+    "prior_value": 2385910379
   },
   "IR": {
-    "institutional_flow_pct": 0.176,
-    "current_value": 33700815994,
-    "prior_value": 28657054129
+    "institutional_flow_pct": -0.1613,
+    "current_value": 28263767868,
+    "prior_value": 33700815994
   },
   "ISRG": {
-    "institutional_flow_pct": -0.0132,
-    "current_value": 160664217269,
-    "prior_value": 162816517433
+    "institutional_flow_pct": -0.2316,
+    "current_value": 123455032921,
+    "prior_value": 160664217269
   },
   "IT": {
-    "institutional_flow_pct": -0.1275,
-    "current_value": 15711306893,
-    "prior_value": 18008022516
+    "institutional_flow_pct": -0.3485,
+    "current_value": 10236421701,
+    "prior_value": 15711306893
   },
   "ITW": {
-    "institutional_flow_pct": 0.0135,
-    "current_value": 5674500408,
-    "prior_value": 5598989485
+    "institutional_flow_pct": 0.1384,
+    "current_value": 6459586239,
+    "prior_value": 5674500408
   },
   "IVZ": {
-    "institutional_flow_pct": 0.0531,
-    "current_value": 12099318231,
-    "prior_value": 11488962133
+    "institutional_flow_pct": -0.0136,
+    "current_value": 11935026567,
+    "prior_value": 12099318231
   },
   "J": {
-    "institutional_flow_pct": 0.1355,
-    "current_value": 15412748173,
-    "prior_value": 13573471035
+    "institutional_flow_pct": -0.1119,
+    "current_value": 13688424246,
+    "prior_value": 15412748173
   },
   "JBL": {
-    "institutional_flow_pct": 0.2881,
-    "current_value": 31080397636,
-    "prior_value": 24128268949
+    "institutional_flow_pct": 0.3164,
+    "current_value": 40915736828,
+    "prior_value": 31080397636
   },
   "JCI": {
-    "institutional_flow_pct": -0.0271,
-    "current_value": 9816301271,
-    "prior_value": 10089316987
+    "institutional_flow_pct": 0.1053,
+    "current_value": 10849887874,
+    "prior_value": 9816301271
   },
   "JKHY": {
-    "institutional_flow_pct": -0.1138,
-    "current_value": 864061137,
-    "prior_value": 974984818
+    "institutional_flow_pct": -0.0259,
+    "current_value": 841696969,
+    "prior_value": 864061137
   },
   "JNJ": {
-    "institutional_flow_pct": 0.4057,
-    "current_value": 508653449551,
-    "prior_value": 361849805148
+    "institutional_flow_pct": -0.0997,
+    "current_value": 457957363400,
+    "prior_value": 508653449551
   },
   "JPM": {
-    "institutional_flow_pct": -0.2428,
-    "current_value": 3247442800,
-    "prior_value": 4289012311
+    "institutional_flow_pct": 0.0182,
+    "current_value": 3306483184,
+    "prior_value": 3247442800
   },
   "KDP": {
-    "institutional_flow_pct": 0.0922,
-    "current_value": 38521298007,
-    "prior_value": 35268937922
+    "institutional_flow_pct": 0.2004,
+    "current_value": 46242509080,
+    "prior_value": 38521298007
   },
   "KEY": {
-    "institutional_flow_pct": 0.0037,
-    "current_value": 21557580257,
-    "prior_value": 21478891979
+    "institutional_flow_pct": 0.0094,
+    "current_value": 21760560883,
+    "prior_value": 21557580257
   },
   "KEYS": {
-    "institutional_flow_pct": 0.5526,
-    "current_value": 41091950785,
-    "prior_value": 26466088761
+    "institutional_flow_pct": 0.1212,
+    "current_value": 46073691836,
+    "prior_value": 41091950785
   },
   "KHC": {
-    "institutional_flow_pct": -0.1996,
-    "current_value": 122646714,
-    "prior_value": 153239112
+    "institutional_flow_pct": 0.0303,
+    "current_value": 126359303,
+    "prior_value": 122646714
   },
   "KKR": {
-    "institutional_flow_pct": -0.1335,
-    "current_value": 60097380878,
-    "prior_value": 69356777054
+    "institutional_flow_pct": -0.1243,
+    "current_value": 52629248267,
+    "prior_value": 60097380878
   },
   "KLAC": {
-    "institutional_flow_pct": 0.1483,
-    "current_value": 1120055545,
-    "prior_value": 975430516
+    "institutional_flow_pct": 2.949,
+    "current_value": 4423045105,
+    "prior_value": 1120055545
   },
   "KMB": {
-    "institutional_flow_pct": -0.4513,
-    "current_value": 23127900,
-    "prior_value": 42153453
+    "institutional_flow_pct": 2.4977,
+    "current_value": 80894266,
+    "prior_value": 23127900
   },
   "KMI": {
-    "institutional_flow_pct": 0.1815,
-    "current_value": 5061122358,
-    "prior_value": 4283541772
+    "institutional_flow_pct": -0.0766,
+    "current_value": 4673345719,
+    "prior_value": 5061122358
   },
   "KO": {
-    "institutional_flow_pct": 0.4305,
-    "current_value": 2454140,
-    "prior_value": 1715605
+    "institutional_flow_pct": 54.9857,
+    "current_value": 137396787,
+    "prior_value": 2454140
   },
   "KR": {
-    "institutional_flow_pct": -0.3823,
-    "current_value": 289440,
-    "prior_value": 468600
-  },
-  "KVUE": {
-    "institutional_flow_pct": 0.0523,
-    "current_value": 34258606518,
-    "prior_value": 32554661265
+    "institutional_flow_pct": -0.2326,
+    "current_value": 222120,
+    "prior_value": 289440
   },
   "L": {
-    "institutional_flow_pct": 0.0485,
-    "current_value": 52939019,
-    "prior_value": 50490003
+    "institutional_flow_pct": 0.2002,
+    "current_value": 63535410,
+    "prior_value": 52939019
   },
   "LDOS": {
-    "institutional_flow_pct": 0.0039,
-    "current_value": 17313992915,
-    "prior_value": 17246703785
+    "institutional_flow_pct": -0.4068,
+    "current_value": 10270997847,
+    "prior_value": 17313992915
   },
   "LEN": {
-    "institutional_flow_pct": -0.2255,
-    "current_value": 22798501,
-    "prior_value": 29436047
+    "institutional_flow_pct": 0.546,
+    "current_value": 35247569,
+    "prior_value": 22798501
   },
   "LH": {
-    "institutional_flow_pct": 0.1893,
-    "current_value": 23190723326,
-    "prior_value": 19499546352
+    "institutional_flow_pct": -0.0842,
+    "current_value": 21237926313,
+    "prior_value": 23190723326
   },
   "LHX": {
-    "institutional_flow_pct": 0.3299,
-    "current_value": 62027959889,
-    "prior_value": 46639454095
+    "institutional_flow_pct": -0.2229,
+    "current_value": 48201006276,
+    "prior_value": 62027959889
   },
   "LII": {
-    "institutional_flow_pct": 0.1196,
-    "current_value": 887020303,
-    "prior_value": 792259625
+    "institutional_flow_pct": 0.1843,
+    "current_value": 1050483079,
+    "prior_value": 887020303
   },
   "LIN": {
-    "institutional_flow_pct": 0.6315,
-    "current_value": 258707955667,
-    "prior_value": 158568279559
+    "institutional_flow_pct": -0.1996,
+    "current_value": 207058993839,
+    "prior_value": 258707955667
   },
   "LITE": {
-    "institutional_flow_pct": 0.4861,
-    "current_value": 4625192698,
-    "prior_value": 3112301707
+    "institutional_flow_pct": 0.2744,
+    "current_value": 5894168735,
+    "prior_value": 4625192698
   },
   "LLY": {
-    "institutional_flow_pct": -0.1495,
-    "current_value": 85648975253,
-    "prior_value": 100705447148
+    "institutional_flow_pct": 0.2822,
+    "current_value": 109815014788,
+    "prior_value": 85648975253
   },
   "LMT": {
-    "institutional_flow_pct": -0.0197,
-    "current_value": 442481480,
-    "prior_value": 451355360
+    "institutional_flow_pct": 0.6147,
+    "current_value": 714494248,
+    "prior_value": 442481480
   },
   "LNT": {
-    "institutional_flow_pct": 0.3085,
-    "current_value": 57569015,
-    "prior_value": 43995545
+    "institutional_flow_pct": 0.0216,
+    "current_value": 58812063,
+    "prior_value": 57569015
   },
   "LOW": {
-    "institutional_flow_pct": -0.0869,
-    "current_value": 588499738,
-    "prior_value": 644537931
+    "institutional_flow_pct": -0.0791,
+    "current_value": 541933659,
+    "prior_value": 588499738
   },
   "LRCX": {
-    "institutional_flow_pct": 0.26,
-    "current_value": 781758143,
-    "prior_value": 620452744
+    "institutional_flow_pct": 0.8714,
+    "current_value": 1462954296,
+    "prior_value": 781758143
   },
   "LULU": {
-    "institutional_flow_pct": -0.127,
-    "current_value": 22384600511,
-    "prior_value": 25641033559
+    "institutional_flow_pct": -0.3928,
+    "current_value": 13591780367,
+    "prior_value": 22384600511
   },
   "LVS": {
-    "institutional_flow_pct": -0.044,
-    "current_value": 18093450482,
-    "prior_value": 18926423148
+    "institutional_flow_pct": -0.3102,
+    "current_value": 12480506100,
+    "prior_value": 18093450482
   },
   "LYB": {
-    "institutional_flow_pct": 21.8504,
-    "current_value": 20622254047,
-    "prior_value": 902488701
+    "institutional_flow_pct": -0.3842,
+    "current_value": 12698864707,
+    "prior_value": 20622254047
   },
   "LYV": {
-    "institutional_flow_pct": -0.6012,
-    "current_value": 720800896,
-    "prior_value": 1807549929
+    "institutional_flow_pct": 0.2196,
+    "current_value": 879112742,
+    "prior_value": 720800896
   },
   "MA": {
-    "institutional_flow_pct": 0.0748,
-    "current_value": 431136893543,
-    "prior_value": 401126866559
+    "institutional_flow_pct": -0.1533,
+    "current_value": 365036045533,
+    "prior_value": 431136893543
   },
   "MAR": {
-    "institutional_flow_pct": -0.1338,
-    "current_value": 176038919,
-    "prior_value": 203241721
+    "institutional_flow_pct": 0.2746,
+    "current_value": 224381001,
+    "prior_value": 176038919
   },
   "MAS": {
-    "institutional_flow_pct": -0.0757,
-    "current_value": 125712680,
-    "prior_value": 136012981
+    "institutional_flow_pct": 0.1854,
+    "current_value": 149023761,
+    "prior_value": 125712680
   },
   "MCD": {
-    "institutional_flow_pct": 0.0303,
-    "current_value": 655626180,
-    "prior_value": 636363764
+    "institutional_flow_pct": 1.7082,
+    "current_value": 1775592577,
+    "prior_value": 655626180
   },
   "MCK": {
-    "institutional_flow_pct": 0.0165,
-    "current_value": 991297891,
-    "prior_value": 975202650
+    "institutional_flow_pct": -0.1305,
+    "current_value": 861949282,
+    "prior_value": 991297891
   },
   "MCO": {
-    "institutional_flow_pct": -0.3277,
-    "current_value": 220082104,
-    "prior_value": 327332984
+    "institutional_flow_pct": -0.0702,
+    "current_value": 204640265,
+    "prior_value": 220082104
   },
   "MDLZ": {
-    "institutional_flow_pct": 0.0768,
-    "current_value": 1060744383,
-    "prior_value": 985047122
+    "institutional_flow_pct": 0.0024,
+    "current_value": 1063337687,
+    "prior_value": 1060744383
   },
   "MDT": {
-    "institutional_flow_pct": 0.0997,
-    "current_value": 116209293080,
-    "prior_value": 105677637473
+    "institutional_flow_pct": -0.2183,
+    "current_value": 90842119378,
+    "prior_value": 116209293080
   },
   "MET": {
-    "institutional_flow_pct": 0.1026,
-    "current_value": 42211017877,
-    "prior_value": 38284849488
+    "institutional_flow_pct": -0.0269,
+    "current_value": 41074297068,
+    "prior_value": 42211017877
   },
   "META": {
-    "institutional_flow_pct": 0.0798,
-    "current_value": 1201580287197,
-    "prior_value": 1112771590597
+    "institutional_flow_pct": -0.1655,
+    "current_value": 1002726551037,
+    "prior_value": 1201580287197
   },
   "MGM": {
-    "institutional_flow_pct": 0.061,
-    "current_value": 8440294459,
-    "prior_value": 7954771658
+    "institutional_flow_pct": -0.0049,
+    "current_value": 8398850332,
+    "prior_value": 8440294459
   },
   "MLM": {
-    "institutional_flow_pct": -0.1017,
-    "current_value": 3654428211,
-    "prior_value": 4068243542
+    "institutional_flow_pct": -0.1243,
+    "current_value": 3200031796,
+    "prior_value": 3654428211
   },
   "MMM": {
-    "institutional_flow_pct": -0.0232,
-    "current_value": 377703955,
-    "prior_value": 386668745
+    "institutional_flow_pct": 3.3244,
+    "current_value": 1633354580,
+    "prior_value": 377703955
   },
   "MNST": {
-    "institutional_flow_pct": -0.0605,
-    "current_value": 2073675505,
-    "prior_value": 2207217093
+    "institutional_flow_pct": 0.2586,
+    "current_value": 2609913638,
+    "prior_value": 2073675505
   },
   "MO": {
-    "institutional_flow_pct": 0.3087,
-    "current_value": 82873761926,
-    "prior_value": 63325988432
+    "institutional_flow_pct": 0.0218,
+    "current_value": 84680481586,
+    "prior_value": 82873761926
   },
   "MPC": {
-    "institutional_flow_pct": 0.5702,
-    "current_value": 189386441,
-    "prior_value": 120616008
+    "institutional_flow_pct": 0.2825,
+    "current_value": 242889847,
+    "prior_value": 189386441
   },
   "MPWR": {
-    "institutional_flow_pct": 0.0934,
-    "current_value": 3883648466,
-    "prior_value": 3551835252
+    "institutional_flow_pct": 0.1579,
+    "current_value": 4496749373,
+    "prior_value": 3883648466
   },
   "MRK": {
-    "institutional_flow_pct": 0.0297,
-    "current_value": 582652005,
-    "prior_value": 565831751
+    "institutional_flow_pct": 0.9566,
+    "current_value": 1140020634,
+    "prior_value": 582652005
   },
   "MRNA": {
-    "institutional_flow_pct": 0.9945,
-    "current_value": 23923779596,
-    "prior_value": 11994686806
+    "institutional_flow_pct": 0.0912,
+    "current_value": 26106410677,
+    "prior_value": 23923779596
   },
   "MRSH": {
-    "institutional_flow_pct": 2.6373,
-    "current_value": 530532094,
-    "prior_value": 145859743
+    "institutional_flow_pct": -0.2658,
+    "current_value": 389507756,
+    "prior_value": 530532094
   },
   "MRVL": {
-    "institutional_flow_pct": 0.3777,
-    "current_value": 91143983056,
-    "prior_value": 66157334877
+    "institutional_flow_pct": 1.6516,
+    "current_value": 241678033207,
+    "prior_value": 91143983056
   },
   "MS": {
-    "institutional_flow_pct": 0.0153,
-    "current_value": 247328367517,
-    "prior_value": 243599974216
+    "institutional_flow_pct": 0.1638,
+    "current_value": 287840803712,
+    "prior_value": 247328367517
   },
   "MSCI": {
-    "institutional_flow_pct": 0.2113,
-    "current_value": 44788494376,
-    "prior_value": 36976554795
+    "institutional_flow_pct": -0.1463,
+    "current_value": 38234456263,
+    "prior_value": 44788494376
   },
   "MSFT": {
-    "institutional_flow_pct": -0.3842,
-    "current_value": 13021467473,
-    "prior_value": 21144115713
+    "institutional_flow_pct": 0.1463,
+    "current_value": 14926837399,
+    "prior_value": 13021467473
   },
   "MSI": {
-    "institutional_flow_pct": 0.3032,
-    "current_value": 71345164666,
-    "prior_value": 54744739802
+    "institutional_flow_pct": -0.133,
+    "current_value": 61853884744,
+    "prior_value": 71345164666
   },
   "MTB": {
-    "institutional_flow_pct": -0.0049,
-    "current_value": 138623317,
-    "prior_value": 139304821
+    "institutional_flow_pct": 0.1358,
+    "current_value": 157450335,
+    "prior_value": 138623317
   },
   "MTD": {
-    "institutional_flow_pct": -0.1991,
-    "current_value": 113305429,
-    "prior_value": 141479773
+    "institutional_flow_pct": 0.9446,
+    "current_value": 220339074,
+    "prior_value": 113305429
   },
   "MU": {
-    "institutional_flow_pct": 0.423,
-    "current_value": 401370884340,
-    "prior_value": 282055277957
+    "institutional_flow_pct": 2.3312,
+    "current_value": 1337065357546,
+    "prior_value": 401370884340
   },
   "NCLH": {
-    "institutional_flow_pct": 0.0592,
-    "current_value": 101962093,
-    "prior_value": 96260941
+    "institutional_flow_pct": 0.6598,
+    "current_value": 169233153,
+    "prior_value": 101962093
   },
   "NDAQ": {
-    "institutional_flow_pct": -0.0283,
-    "current_value": 45235456429,
-    "prior_value": 46551790807
+    "institutional_flow_pct": -0.1722,
+    "current_value": 37447501951,
+    "prior_value": 45235456429
   },
   "NDSN": {
-    "institutional_flow_pct": -0.0022,
-    "current_value": 153452096,
-    "prior_value": 153784476
+    "institutional_flow_pct": 0.1462,
+    "current_value": 175884339,
+    "prior_value": 153452096
   },
   "NEE": {
-    "institutional_flow_pct": 0.5095,
-    "current_value": 214290491096,
-    "prior_value": 141960965452
+    "institutional_flow_pct": -0.2259,
+    "current_value": 165892508031,
+    "prior_value": 214290491096
   },
   "NEM": {
-    "institutional_flow_pct": -0.2532,
-    "current_value": 429735947,
-    "prior_value": 575460461
+    "institutional_flow_pct": 2.0925,
+    "current_value": 1328975980,
+    "prior_value": 429735947
   },
   "NFLX": {
-    "institutional_flow_pct": 0.2187,
-    "current_value": 418994534708,
-    "prior_value": 343804641021
+    "institutional_flow_pct": -0.359,
+    "current_value": 268556727662,
+    "prior_value": 418994534708
   },
   "NI": {
-    "institutional_flow_pct": 0.312,
-    "current_value": 21842323824,
-    "prior_value": 16648347205
+    "institutional_flow_pct": -0.06,
+    "current_value": 20530791129,
+    "prior_value": 21842323824
   },
   "NKE": {
-    "institutional_flow_pct": 0.2453,
-    "current_value": 81473290544,
-    "prior_value": 65424125638
+    "institutional_flow_pct": -0.4324,
+    "current_value": 46240770497,
+    "prior_value": 81473290544
   },
   "NOC": {
-    "institutional_flow_pct": -0.2471,
-    "current_value": 267048451,
-    "prior_value": 354691075
+    "institutional_flow_pct": 0.6388,
+    "current_value": 437646406,
+    "prior_value": 267048451
   },
   "NOW": {
-    "institutional_flow_pct": 0.001,
-    "current_value": 138969116746,
-    "prior_value": 138833392165
+    "institutional_flow_pct": -0.305,
+    "current_value": 96589489148,
+    "prior_value": 138969116746
   },
   "NRG": {
-    "institutional_flow_pct": 0.1738,
-    "current_value": 33817817099,
-    "prior_value": 28809730270
+    "institutional_flow_pct": -0.1396,
+    "current_value": 29097252591,
+    "prior_value": 33817817099
   },
   "NSC": {
-    "institutional_flow_pct": -0.2217,
-    "current_value": 54083338,
-    "prior_value": 69485162
+    "institutional_flow_pct": 0.0564,
+    "current_value": 57133372,
+    "prior_value": 54083338
   },
   "NTAP": {
-    "institutional_flow_pct": 0.1285,
-    "current_value": 23765367634,
-    "prior_value": 21060156470
+    "institutional_flow_pct": 0.2785,
+    "current_value": 30383053868,
+    "prior_value": 23765367634
   },
   "NTRS": {
-    "institutional_flow_pct": -0.0279,
-    "current_value": 141735723,
-    "prior_value": 145806200
+    "institutional_flow_pct": 0.2505,
+    "current_value": 177240559,
+    "prior_value": 141735723
   },
   "NUE": {
-    "institutional_flow_pct": 0.2115,
-    "current_value": 76051881,
-    "prior_value": 62773757
+    "institutional_flow_pct": 0.4827,
+    "current_value": 112762869,
+    "prior_value": 76051881
   },
   "NVDA": {
-    "institutional_flow_pct": 0.1322,
-    "current_value": 3290688060202,
-    "prior_value": 2906555600900
+    "institutional_flow_pct": -0.0256,
+    "current_value": 3206422809273,
+    "prior_value": 3290688060202
   },
   "NVR": {
-    "institutional_flow_pct": 0.0617,
-    "current_value": 18221748851,
-    "prior_value": 17163542678
+    "institutional_flow_pct": -0.0986,
+    "current_value": 16424875644,
+    "prior_value": 18221748851
   },
   "NWS": {
-    "institutional_flow_pct": -0.8637,
-    "current_value": 29790595,
-    "prior_value": 218561971
+    "institutional_flow_pct": 6.2438,
+    "current_value": 215797707,
+    "prior_value": 29790595
   },
   "NWSA": {
-    "institutional_flow_pct": -0.8637,
-    "current_value": 29790595,
-    "prior_value": 218561971
+    "institutional_flow_pct": 6.2438,
+    "current_value": 215797707,
+    "prior_value": 29790595
   },
   "NXPI": {
-    "institutional_flow_pct": 0.0033,
-    "current_value": 3478822702,
-    "prior_value": 3467383061
+    "institutional_flow_pct": 0.5518,
+    "current_value": 5398441196,
+    "prior_value": 3478822702
   },
   "O": {
-    "institutional_flow_pct": -0.0847,
-    "current_value": 170807967,
-    "prior_value": 186616696
+    "institutional_flow_pct": -0.0215,
+    "current_value": 167133991,
+    "prior_value": 170807967
   },
   "ODFL": {
-    "institutional_flow_pct": 0.1671,
-    "current_value": 3293595312,
-    "prior_value": 2822050869
+    "institutional_flow_pct": -0.0666,
+    "current_value": 3074079983,
+    "prior_value": 3293595312
   },
   "OKE": {
-    "institutional_flow_pct": 0.2754,
-    "current_value": 5087499950,
-    "prior_value": 3989053317
+    "institutional_flow_pct": -0.0951,
+    "current_value": 4603497314,
+    "prior_value": 5087499950
+  },
+  "OKTA": {
+    "institutional_flow_pct": 0.5107,
+    "current_value": 24862410527,
+    "prior_value": 16457591358
   },
   "OMC": {
-    "institutional_flow_pct": 0.1453,
-    "current_value": 27621097162,
-    "prior_value": 24117727140
+    "institutional_flow_pct": -0.1787,
+    "current_value": 22684976238,
+    "prior_value": 27621097162
   },
   "ON": {
-    "institutional_flow_pct": 0.5286,
-    "current_value": 175261057,
-    "prior_value": 114655142
+    "institutional_flow_pct": -0.1242,
+    "current_value": 153499525,
+    "prior_value": 175261057
   },
   "ORCL": {
-    "institutional_flow_pct": -0.3732,
-    "current_value": 854119385,
-    "prior_value": 1362558398
+    "institutional_flow_pct": 2.084,
+    "current_value": 2634115578,
+    "prior_value": 854119385
   },
   "ORLY": {
-    "institutional_flow_pct": -0.0187,
-    "current_value": 5815880590,
-    "prior_value": 5926744023
+    "institutional_flow_pct": -0.0705,
+    "current_value": 5406010190,
+    "prior_value": 5815880590
   },
   "OTIS": {
-    "institutional_flow_pct": -0.1496,
-    "current_value": 118647739,
-    "prior_value": 139524029
+    "institutional_flow_pct": -0.1068,
+    "current_value": 105975734,
+    "prior_value": 118647739
+  },
+  "P": {
+    "institutional_flow_pct": 0.3455,
+    "current_value": 20285805927,
+    "prior_value": 15076591245
   },
   "PANW": {
-    "institutional_flow_pct": 0.2668,
-    "current_value": 140861512898,
-    "prior_value": 111192106177
+    "institutional_flow_pct": 0.775,
+    "current_value": 250027143097,
+    "prior_value": 140861512898
   },
   "PAYX": {
-    "institutional_flow_pct": -0.03,
-    "current_value": 32453626838,
-    "prior_value": 33458920352
+    "institutional_flow_pct": 0.0006,
+    "current_value": 32471770338,
+    "prior_value": 32453626838
   },
   "PCAR": {
-    "institutional_flow_pct": 0.1691,
-    "current_value": 50757994569,
-    "prior_value": 43416051138
-  },
-  "PCG": {
-    "institutional_flow_pct": 0.0945,
-    "current_value": 4677,
-    "prior_value": 4273
+    "institutional_flow_pct": -0.0573,
+    "current_value": 47848340679,
+    "prior_value": 50757994569
   },
   "PEG": {
-    "institutional_flow_pct": 0.2142,
-    "current_value": 549423049,
-    "prior_value": 452502679
+    "institutional_flow_pct": -0.408,
+    "current_value": 325244790,
+    "prior_value": 549423049
   },
   "PEP": {
-    "institutional_flow_pct": 0.3238,
-    "current_value": 201879901104,
-    "prior_value": 152500580840
+    "institutional_flow_pct": -0.2185,
+    "current_value": 157767424827,
+    "prior_value": 201879901104
   },
   "PFE": {
-    "institutional_flow_pct": 0.4194,
-    "current_value": 140905851954,
-    "prior_value": 99271895281
+    "institutional_flow_pct": -0.2816,
+    "current_value": 101225813012,
+    "prior_value": 140905851954
   },
   "PFG": {
-    "institutional_flow_pct": 0.021,
-    "current_value": 1066802950,
-    "prior_value": 1044816270
+    "institutional_flow_pct": 0.184,
+    "current_value": 1263072399,
+    "prior_value": 1066802950
   },
   "PG": {
-    "institutional_flow_pct": 7.0155,
-    "current_value": 6909454,
-    "prior_value": 862010
+    "institutional_flow_pct": -0.8808,
+    "current_value": 823384,
+    "prior_value": 6909454
   },
   "PGR": {
-    "institutional_flow_pct": -0.8593,
-    "current_value": 14631381,
-    "prior_value": 104008483
+    "institutional_flow_pct": 91.2653,
+    "current_value": 1349969215,
+    "prior_value": 14631381
   },
   "PH": {
-    "institutional_flow_pct": -0.1557,
-    "current_value": 57209907,
-    "prior_value": 67758344
+    "institutional_flow_pct": -0.1389,
+    "current_value": 49264369,
+    "prior_value": 57209907
   },
   "PHM": {
-    "institutional_flow_pct": -0.055,
-    "current_value": 1825110486,
-    "prior_value": 1931358121
+    "institutional_flow_pct": 0.0349,
+    "current_value": 1888722239,
+    "prior_value": 1825110486
   },
   "PLD": {
-    "institutional_flow_pct": 0.2829,
-    "current_value": 135359402004,
-    "prior_value": 105507136676
+    "institutional_flow_pct": -0.1224,
+    "current_value": 118789049472,
+    "prior_value": 135359402004
   },
   "PLTR": {
-    "institutional_flow_pct": -0.0283,
-    "current_value": 253980979374,
-    "prior_value": 261385542550
+    "institutional_flow_pct": -0.2297,
+    "current_value": 195646523949,
+    "prior_value": 253980979374
   },
   "PM": {
-    "institutional_flow_pct": 0.0243,
-    "current_value": 15052542923,
-    "prior_value": 14695894619
+    "institutional_flow_pct": 0.2464,
+    "current_value": 18761233142,
+    "prior_value": 15052542923
   },
   "PNC": {
-    "institutional_flow_pct": 0.0399,
-    "current_value": 515310465,
-    "prior_value": 495546807
+    "institutional_flow_pct": 0.3165,
+    "current_value": 678391228,
+    "prior_value": 515310465
   },
   "PNR": {
-    "institutional_flow_pct": -0.0376,
-    "current_value": 14404747697,
-    "prior_value": 14967863355
+    "institutional_flow_pct": -0.1834,
+    "current_value": 11762590391,
+    "prior_value": 14404747697
   },
   "PODD": {
-    "institutional_flow_pct": -0.0721,
-    "current_value": 89248350,
-    "prior_value": 96187692
+    "institutional_flow_pct": -0.509,
+    "current_value": 43818973,
+    "prior_value": 89248350
   },
   "PPG": {
-    "institutional_flow_pct": 0.1448,
-    "current_value": 1681029183,
-    "prior_value": 1468427930
+    "institutional_flow_pct": 0.1891,
+    "current_value": 1998842482,
+    "prior_value": 1681029183
   },
   "PPL": {
-    "institutional_flow_pct": 0.8672,
-    "current_value": 136357741,
-    "prior_value": 73029785
+    "institutional_flow_pct": 0.363,
+    "current_value": 185856547,
+    "prior_value": 136357741
   },
   "PRU": {
-    "institutional_flow_pct": -0.0962,
-    "current_value": 2014925481,
-    "prior_value": 2229410978
+    "institutional_flow_pct": 0.1274,
+    "current_value": 2271554204,
+    "prior_value": 2014925481
   },
   "PSA": {
-    "institutional_flow_pct": 0.0134,
-    "current_value": 4591663347,
-    "prior_value": 4531139233
-  },
-  "PSKY": {
-    "institutional_flow_pct": 0.2383,
-    "current_value": 22468,
-    "prior_value": 18144
+    "institutional_flow_pct": 8.3484,
+    "current_value": 42924588268,
+    "prior_value": 4591663347
   },
   "PSX": {
-    "institutional_flow_pct": 0.8204,
-    "current_value": 73403361583,
-    "prior_value": 40323256837
+    "institutional_flow_pct": -0.2247,
+    "current_value": 56910032366,
+    "prior_value": 73403361583
   },
   "PTC": {
-    "institutional_flow_pct": -0.0083,
-    "current_value": 16083238119,
-    "prior_value": 16217878752
+    "institutional_flow_pct": -0.2909,
+    "current_value": 11404693203,
+    "prior_value": 16083238119
   },
   "PWR": {
-    "institutional_flow_pct": 0.288,
-    "current_value": 6598852316,
-    "prior_value": 5123514451
+    "institutional_flow_pct": 0.2171,
+    "current_value": 8031293810,
+    "prior_value": 6598852316
   },
   "PYPL": {
-    "institutional_flow_pct": -0.1911,
-    "current_value": 3188061646,
-    "prior_value": 3941175430
+    "institutional_flow_pct": 0.008,
+    "current_value": 3213649871,
+    "prior_value": 3188061646
   },
   "Q": {
-    "institutional_flow_pct": 0.6072,
-    "current_value": 19462759585,
-    "prior_value": 12109613392
+    "institutional_flow_pct": 0.3247,
+    "current_value": 25782186429,
+    "prior_value": 19462759585
   },
   "QCOM": {
-    "institutional_flow_pct": -0.3876,
-    "current_value": 342956931,
-    "prior_value": 559978666
+    "institutional_flow_pct": 0.2033,
+    "current_value": 412666577,
+    "prior_value": 342956931
   },
   "RCL": {
-    "institutional_flow_pct": -0.091,
-    "current_value": 3571772322,
-    "prior_value": 3929406474
+    "institutional_flow_pct": 1.3029,
+    "current_value": 8225550059,
+    "prior_value": 3571772322
   },
   "RDDT": {
-    "institutional_flow_pct": -0.3302,
-    "current_value": 23690086539,
-    "prior_value": 35371448413
+    "institutional_flow_pct": 0.0895,
+    "current_value": 25810259672,
+    "prior_value": 23690086539
   },
   "REG": {
-    "institutional_flow_pct": -0.2095,
-    "current_value": 169119859,
-    "prior_value": 213946227
+    "institutional_flow_pct": -0.5326,
+    "current_value": 79051945,
+    "prior_value": 169119859
   },
   "REGN": {
-    "institutional_flow_pct": 0.1642,
-    "current_value": 80532619843,
-    "prior_value": 69172265198
+    "institutional_flow_pct": -0.2649,
+    "current_value": 59197437965,
+    "prior_value": 80532619843
   },
   "RF": {
-    "institutional_flow_pct": -0.268,
-    "current_value": 56904268,
-    "prior_value": 77741069
+    "institutional_flow_pct": 0.217,
+    "current_value": 69255063,
+    "prior_value": 56904268
   },
   "RJF": {
-    "institutional_flow_pct": -0.0743,
-    "current_value": 1686619281,
-    "prior_value": 1821997229
+    "institutional_flow_pct": 0.0356,
+    "current_value": 1746609034,
+    "prior_value": 1686619281
   },
   "RL": {
-    "institutional_flow_pct": 0.3155,
-    "current_value": 39142016,
-    "prior_value": 29754275
+    "institutional_flow_pct": -0.0101,
+    "current_value": 38747942,
+    "prior_value": 39142016
   },
   "RMD": {
-    "institutional_flow_pct": 0.175,
-    "current_value": 27448302649,
-    "prior_value": 23360950435
+    "institutional_flow_pct": -0.2762,
+    "current_value": 19867994008,
+    "prior_value": 27448302649
   },
   "ROK": {
-    "institutional_flow_pct": 0.1439,
-    "current_value": 42706261084,
-    "prior_value": 37332693170
+    "institutional_flow_pct": 0.1638,
+    "current_value": 49703181279,
+    "prior_value": 42706261084
   },
   "ROL": {
-    "institutional_flow_pct": 0.0577,
-    "current_value": 16898251571,
-    "prior_value": 15976251805
+    "institutional_flow_pct": -0.2933,
+    "current_value": 11941375710,
+    "prior_value": 16898251571
   },
   "ROP": {
-    "institutional_flow_pct": 0.0891,
-    "current_value": 46082807331,
-    "prior_value": 42314490031
+    "institutional_flow_pct": -0.2374,
+    "current_value": 35144470943,
+    "prior_value": 46082807331
   },
   "ROST": {
-    "institutional_flow_pct": 0.375,
-    "current_value": 70699865987,
-    "prior_value": 51417581502
+    "institutional_flow_pct": -0.119,
+    "current_value": 62287483303,
+    "prior_value": 70699865987
   },
   "RSG": {
-    "institutional_flow_pct": 0.0514,
-    "current_value": 3842521496,
-    "prior_value": 3654620785
+    "institutional_flow_pct": -0.1392,
+    "current_value": 3307596252,
+    "prior_value": 3842521496
   },
   "RTX": {
-    "institutional_flow_pct": 0.125,
-    "current_value": 194940152515,
-    "prior_value": 173281863694
+    "institutional_flow_pct": -0.07,
+    "current_value": 181301541843,
+    "prior_value": 194940152515
   },
   "RVTY": {
-    "institutional_flow_pct": 0.1994,
-    "current_value": 9645399012,
-    "prior_value": 8041522380
+    "institutional_flow_pct": 0.0519,
+    "current_value": 10145935260,
+    "prior_value": 9645399012
   },
   "SBAC": {
-    "institutional_flow_pct": -0.357,
-    "current_value": 49082641,
-    "prior_value": 76336568
+    "institutional_flow_pct": 0.6547,
+    "current_value": 81216996,
+    "prior_value": 49082641
   },
   "SBUX": {
-    "institutional_flow_pct": -0.1237,
-    "current_value": 341648103,
-    "prior_value": 389890181
+    "institutional_flow_pct": 0.2137,
+    "current_value": 414644031,
+    "prior_value": 341648103
   },
   "SHW": {
-    "institutional_flow_pct": -0.9746,
-    "current_value": 1010000,
-    "prior_value": 39721928
+    "institutional_flow_pct": 0.4714,
+    "current_value": 1486121,
+    "prior_value": 1010000
   },
   "SLB": {
-    "institutional_flow_pct": 0.6101,
-    "current_value": 68662297444,
-    "prior_value": 42645129918
+    "institutional_flow_pct": -0.138,
+    "current_value": 59184041414,
+    "prior_value": 68662297444
   },
   "SMCI": {
-    "institutional_flow_pct": 0.0182,
-    "current_value": 17970985596,
-    "prior_value": 17650092992
+    "institutional_flow_pct": 0.5254,
+    "current_value": 27413368646,
+    "prior_value": 17970985596
   },
   "SNA": {
-    "institutional_flow_pct": 0.464,
-    "current_value": 44901082,
-    "prior_value": 30670268
+    "institutional_flow_pct": 0.4367,
+    "current_value": 64507506,
+    "prior_value": 44901082
   },
   "SNDK": {
-    "institutional_flow_pct": 1.3277,
-    "current_value": 98269617,
-    "prior_value": 42217117
+    "institutional_flow_pct": 2.825,
+    "current_value": 375885490,
+    "prior_value": 98269617
   },
   "SNPS": {
-    "institutional_flow_pct": 0.0281,
-    "current_value": 82463252456,
-    "prior_value": 80209917766
+    "institutional_flow_pct": -0.0126,
+    "current_value": 81425584387,
+    "prior_value": 82463252456
   },
   "SO": {
-    "institutional_flow_pct": -0.9718,
-    "current_value": 2015954,
-    "prior_value": 71445636
+    "institutional_flow_pct": -0.0534,
+    "current_value": 1908209,
+    "prior_value": 2015954
   },
   "SOLV": {
-    "institutional_flow_pct": -0.1772,
-    "current_value": 567538061,
-    "prior_value": 689781848
+    "institutional_flow_pct": 0.1787,
+    "current_value": 668971706,
+    "prior_value": 567538061
   },
   "SPG": {
-    "institutional_flow_pct": 0.0012,
-    "current_value": 4745860117,
-    "prior_value": 4740167821
+    "institutional_flow_pct": 0.2567,
+    "current_value": 5964181171,
+    "prior_value": 4745860117
   },
   "SPGI": {
-    "institutional_flow_pct": -0.0484,
-    "current_value": 129400217180,
-    "prior_value": 135981078262
+    "institutional_flow_pct": -0.1583,
+    "current_value": 108922434404,
+    "prior_value": 129400217180
   },
   "STLD": {
-    "institutional_flow_pct": 0.2968,
-    "current_value": 25160890852,
-    "prior_value": 19402756624
+    "institutional_flow_pct": 0.1275,
+    "current_value": 28370083609,
+    "prior_value": 25160890852
   },
   "STT": {
-    "institutional_flow_pct": -0.1723,
-    "current_value": 230290766,
-    "prior_value": 278232349
+    "institutional_flow_pct": 0.6733,
+    "current_value": 385356813,
+    "prior_value": 230290766
   },
   "STX": {
-    "institutional_flow_pct": 0.3507,
-    "current_value": 4109458976,
-    "prior_value": 3042554352
+    "institutional_flow_pct": 1.8283,
+    "current_value": 11622839266,
+    "prior_value": 4109458976
   },
   "STZ": {
-    "institutional_flow_pct": 0.328,
-    "current_value": 26631485093,
-    "prior_value": 20053209012
+    "institutional_flow_pct": -0.2616,
+    "current_value": 19665659411,
+    "prior_value": 26631485093
   },
   "SW": {
-    "institutional_flow_pct": 0.2378,
-    "current_value": 22301025542,
-    "prior_value": 18016790527
+    "institutional_flow_pct": 0.0483,
+    "current_value": 23377057136,
+    "prior_value": 22301025542
   },
   "SWK": {
-    "institutional_flow_pct": 0.0768,
-    "current_value": 11312043411,
-    "prior_value": 10504956687
+    "institutional_flow_pct": 0.283,
+    "current_value": 14513889579,
+    "prior_value": 11312043411
   },
   "SWKS": {
-    "institutional_flow_pct": 0.1907,
-    "current_value": 11904144267,
-    "prior_value": 9997744021
+    "institutional_flow_pct": 0.0903,
+    "current_value": 12979282831,
+    "prior_value": 11904144267
   },
   "SYF": {
-    "institutional_flow_pct": -0.0881,
-    "current_value": 28130537724,
-    "prior_value": 30846749663
+    "institutional_flow_pct": -0.0583,
+    "current_value": 26489965169,
+    "prior_value": 28130537724
   },
   "SYK": {
-    "institutional_flow_pct": 0.1894,
-    "current_value": 110314453927,
-    "prior_value": 92750956235
+    "institutional_flow_pct": -0.2144,
+    "current_value": 86660599785,
+    "prior_value": 110314453927
   },
   "SYY": {
-    "institutional_flow_pct": -0.0024,
-    "current_value": 256161657,
-    "prior_value": 256778279
+    "institutional_flow_pct": 0.3899,
+    "current_value": 356050224,
+    "prior_value": 256161657
   },
   "T": {
-    "institutional_flow_pct": 0.3719,
-    "current_value": 161396660778,
-    "prior_value": 117642474034
-  },
-  "TAP": {
-    "institutional_flow_pct": -0.2235,
-    "current_value": 12281026,
-    "prior_value": 15816066
+    "institutional_flow_pct": -0.3738,
+    "current_value": 101067661079,
+    "prior_value": 161396660778
   },
   "TDG": {
-    "institutional_flow_pct": -0.1386,
-    "current_value": 202663807,
-    "prior_value": 235259256
+    "institutional_flow_pct": 0.0422,
+    "current_value": 211206857,
+    "prior_value": 202663807
   },
   "TECH": {
-    "institutional_flow_pct": 0.1464,
-    "current_value": 10806415522,
-    "prior_value": 9426079429
+    "institutional_flow_pct": 0.1007,
+    "current_value": 11895048037,
+    "prior_value": 10806415522
   },
   "TEL": {
-    "institutional_flow_pct": 0.0881,
-    "current_value": 62132139964,
-    "prior_value": 57101336621
+    "institutional_flow_pct": -0.0968,
+    "current_value": 56116237680,
+    "prior_value": 62132139964
   },
   "TER": {
-    "institutional_flow_pct": 0.7205,
-    "current_value": 49202444772,
-    "prior_value": 28597805648
+    "institutional_flow_pct": 0.5407,
+    "current_value": 75807669046,
+    "prior_value": 49202444772
   },
   "TFC": {
-    "institutional_flow_pct": -0.0263,
-    "current_value": 77589786,
-    "prior_value": 79689362
+    "institutional_flow_pct": -0.2824,
+    "current_value": 55682061,
+    "prior_value": 77589786
   },
   "TGT": {
-    "institutional_flow_pct": 0.1927,
-    "current_value": 224817184,
-    "prior_value": 188500893
+    "institutional_flow_pct": 0.8886,
+    "current_value": 424592246,
+    "prior_value": 224817184
   },
   "TJX": {
-    "institutional_flow_pct": 1.0831,
-    "current_value": 7012437,
-    "prior_value": 3366379
+    "institutional_flow_pct": 169.9536,
+    "current_value": 1198801169,
+    "prior_value": 7012437
   },
   "TKO": {
-    "institutional_flow_pct": 0.2185,
-    "current_value": 19005672390,
-    "prior_value": 15597447840
+    "institutional_flow_pct": -0.2447,
+    "current_value": 14355320667,
+    "prior_value": 19005672390
   },
   "TMO": {
-    "institutional_flow_pct": 0.1609,
-    "current_value": 217563709306,
-    "prior_value": 187402077871
+    "institutional_flow_pct": -0.2083,
+    "current_value": 172239300857,
+    "prior_value": 217563709306
   },
   "TMUS": {
-    "institutional_flow_pct": 0.2605,
-    "current_value": 112055913964,
-    "prior_value": 88896163049
+    "institutional_flow_pct": -0.2894,
+    "current_value": 79622151502,
+    "prior_value": 112055913964
   },
   "TPL": {
-    "institutional_flow_pct": 0.8436,
-    "current_value": 174641868,
-    "prior_value": 94726350
+    "institutional_flow_pct": -0.0737,
+    "current_value": 161778641,
+    "prior_value": 174641868
   },
   "TPR": {
-    "institutional_flow_pct": 0.2298,
-    "current_value": 31410477215,
-    "prior_value": 25540644332
+    "institutional_flow_pct": -0.0527,
+    "current_value": 29754556228,
+    "prior_value": 31410477215
   },
   "TRGP": {
-    "institutional_flow_pct": 0.4589,
-    "current_value": 5885754994,
-    "prior_value": 4034288595
+    "institutional_flow_pct": 0.0725,
+    "current_value": 6312611771,
+    "prior_value": 5885754994
   },
   "TRMB": {
-    "institutional_flow_pct": 0.0635,
-    "current_value": 18264121575,
-    "prior_value": 17172970978
+    "institutional_flow_pct": -0.285,
+    "current_value": 13058239340,
+    "prior_value": 18264121575
   },
   "TROW": {
-    "institutional_flow_pct": -0.0739,
-    "current_value": 1895025417,
-    "prior_value": 2046168714
+    "institutional_flow_pct": 0.3003,
+    "current_value": 2464155089,
+    "prior_value": 1895025417
   },
   "TRV": {
-    "institutional_flow_pct": -0.0292,
-    "current_value": 395168251,
-    "prior_value": 407070502
+    "institutional_flow_pct": 0.0416,
+    "current_value": 411612977,
+    "prior_value": 395168251
   },
   "TSCO": {
-    "institutional_flow_pct": -0.2509,
-    "current_value": 1113618201,
-    "prior_value": 1486543668
+    "institutional_flow_pct": -0.2708,
+    "current_value": 812088486,
+    "prior_value": 1113618201
   },
   "TSLA": {
-    "institutional_flow_pct": -0.0111,
-    "current_value": 959481212904,
-    "prior_value": 970276390777
+    "institutional_flow_pct": -0.066,
+    "current_value": 896158260996,
+    "prior_value": 959481212904
   },
   "TSN": {
-    "institutional_flow_pct": 0.2275,
-    "current_value": 17061852514,
-    "prior_value": 13899182965
+    "institutional_flow_pct": -0.1461,
+    "current_value": 14568262884,
+    "prior_value": 17061852514
   },
   "TT": {
-    "institutional_flow_pct": 0.2587,
-    "current_value": 95747066323,
-    "prior_value": 76070254695
-  },
-  "TTD": {
-    "institutional_flow_pct": -0.1663,
-    "current_value": 11893990190,
-    "prior_value": 14266634207
+    "institutional_flow_pct": -0.0056,
+    "current_value": 95207228548,
+    "prior_value": 95747066323
   },
   "TTWO": {
-    "institutional_flow_pct": -0.2813,
-    "current_value": 2997099732,
-    "prior_value": 4170185025
+    "institutional_flow_pct": 0.2605,
+    "current_value": 3777739256,
+    "prior_value": 2997099732
+  },
+  "TWLO": {
+    "institutional_flow_pct": 0.5254,
+    "current_value": 28355319448,
+    "prior_value": 18588528470
   },
   "TXN": {
-    "institutional_flow_pct": 0.1776,
-    "current_value": 303494173,
-    "prior_value": 257712182
+    "institutional_flow_pct": 0.6189,
+    "current_value": 491333827,
+    "prior_value": 303494173
   },
   "TXT": {
-    "institutional_flow_pct": 0.1792,
-    "current_value": 14480562485,
-    "prior_value": 12279738576
+    "institutional_flow_pct": -0.0558,
+    "current_value": 13672097904,
+    "prior_value": 14480562485
   },
   "TYL": {
-    "institutional_flow_pct": -0.1267,
-    "current_value": 15566653887,
-    "prior_value": 17824076094
+    "institutional_flow_pct": -0.2161,
+    "current_value": 12201926755,
+    "prior_value": 15566653887
   },
   "UAL": {
-    "institutional_flow_pct": -0.3356,
-    "current_value": 1871069785,
-    "prior_value": 2816183499
+    "institutional_flow_pct": 0.31,
+    "current_value": 2451047568,
+    "prior_value": 1871069785
   },
   "UBER": {
-    "institutional_flow_pct": 0.068,
-    "current_value": 163768566088,
-    "prior_value": 153346615023
+    "institutional_flow_pct": -0.1412,
+    "current_value": 140640670617,
+    "prior_value": 163768566088
   },
   "UDR": {
-    "institutional_flow_pct": 0.1444,
-    "current_value": 12881429120,
-    "prior_value": 11255720414
+    "institutional_flow_pct": 0.0221,
+    "current_value": 13166544044,
+    "prior_value": 12881429120
   },
   "UHS": {
-    "institutional_flow_pct": -0.1024,
-    "current_value": 279012605,
-    "prior_value": 310843260
+    "institutional_flow_pct": 0.0991,
+    "current_value": 306667978,
+    "prior_value": 279012605
   },
   "ULTA": {
-    "institutional_flow_pct": -0.0214,
-    "current_value": 26741993264,
-    "prior_value": 27327069053
+    "institutional_flow_pct": -0.2517,
+    "current_value": 20010002686,
+    "prior_value": 26741993264
   },
   "UNH": {
-    "institutional_flow_pct": -0.2139,
-    "current_value": 489931456,
-    "prior_value": 623276155
+    "institutional_flow_pct": 0.6329,
+    "current_value": 799990332,
+    "prior_value": 489931456
   },
   "UNP": {
-    "institutional_flow_pct": -0.0178,
-    "current_value": 502917854,
-    "prior_value": 512041348
+    "institutional_flow_pct": -0.0756,
+    "current_value": 464887258,
+    "prior_value": 502917854
   },
   "UPS": {
-    "institutional_flow_pct": -0.7981,
-    "current_value": 10435644224,
-    "prior_value": 51694674824
+    "institutional_flow_pct": -0.6444,
+    "current_value": 3710614014,
+    "prior_value": 10435644224
   },
   "URI": {
-    "institutional_flow_pct": 0.0986,
-    "current_value": 52129609999,
-    "prior_value": 47449265755
+    "institutional_flow_pct": 0.2901,
+    "current_value": 67253686442,
+    "prior_value": 52129609999
   },
   "USB": {
-    "institutional_flow_pct": 7.7495,
-    "current_value": 64930260401,
-    "prior_value": 7420998837
+    "institutional_flow_pct": 0.1275,
+    "current_value": 73209776745,
+    "prior_value": 64930260401
   },
   "V": {
-    "institutional_flow_pct": 0.1341,
-    "current_value": 536313068543,
-    "prior_value": 472905954314
+    "institutional_flow_pct": -0.1055,
+    "current_value": 479724319336,
+    "prior_value": 536313068543
   },
   "VEEV": {
-    "institutional_flow_pct": -0.222,
-    "current_value": 1096551387,
-    "prior_value": 1409469171
+    "institutional_flow_pct": -0.3282,
+    "current_value": 736667253,
+    "prior_value": 1096551387
   },
   "VICI": {
-    "institutional_flow_pct": -0.1269,
-    "current_value": 2924212226,
-    "prior_value": 3349104789
+    "institutional_flow_pct": 0.0011,
+    "current_value": 2927464205,
+    "prior_value": 2924212226
   },
   "VLO": {
-    "institutional_flow_pct": 0.4417,
-    "current_value": 327142142,
-    "prior_value": 226920839
+    "institutional_flow_pct": 0.1549,
+    "current_value": 377818761,
+    "prior_value": 327142142
   },
   "VLTO": {
-    "institutional_flow_pct": 0.0178,
-    "current_value": 22770376904,
-    "prior_value": 22373197483
+    "institutional_flow_pct": -0.1373,
+    "current_value": 19643202017,
+    "prior_value": 22770376904
   },
   "VRSK": {
-    "institutional_flow_pct": 0.1051,
-    "current_value": 31275489771,
-    "prior_value": 28301583060
+    "institutional_flow_pct": -0.247,
+    "current_value": 23549437631,
+    "prior_value": 31275489771
   },
   "VRSN": {
-    "institutional_flow_pct": 0.0976,
-    "current_value": 23712952253,
-    "prior_value": 21603894774
+    "institutional_flow_pct": -0.0511,
+    "current_value": 22501783871,
+    "prior_value": 23712952253
   },
   "VRT": {
-    "institutional_flow_pct": 0.6438,
-    "current_value": 92030968925,
-    "prior_value": 55986334420
+    "institutional_flow_pct": 0.1668,
+    "current_value": 107385319958,
+    "prior_value": 92030968925
   },
   "VST": {
-    "institutional_flow_pct": 0.0463,
-    "current_value": 54464121504,
-    "prior_value": 52055264025
+    "institutional_flow_pct": -0.0594,
+    "current_value": 51231469187,
+    "prior_value": 54464121504
   },
   "VTR": {
-    "institutional_flow_pct": 0.2162,
-    "current_value": 43823750112,
-    "prior_value": 36032845128
+    "institutional_flow_pct": 0.0595,
+    "current_value": 46433392393,
+    "prior_value": 43823750112
   },
   "VTRS": {
-    "institutional_flow_pct": 0.2117,
-    "current_value": 14328100046,
-    "prior_value": 11824719281
+    "institutional_flow_pct": 0.1499,
+    "current_value": 16476572178,
+    "prior_value": 14328100046
   },
   "VZ": {
-    "institutional_flow_pct": 0.4463,
-    "current_value": 173719634501,
-    "prior_value": 120116775520
+    "institutional_flow_pct": -0.2227,
+    "current_value": 135039357292,
+    "prior_value": 173719634501
   },
   "WAT": {
-    "institutional_flow_pct": 0.0055,
-    "current_value": 256936656,
-    "prior_value": 255525952
+    "institutional_flow_pct": 0.2159,
+    "current_value": 312400409,
+    "prior_value": 256936656
   },
   "WDAY": {
-    "institutional_flow_pct": -0.1785,
-    "current_value": 33514565206,
-    "prior_value": 40795275805
+    "institutional_flow_pct": -0.1729,
+    "current_value": 27719244663,
+    "prior_value": 33514565206
   },
   "WDC": {
-    "institutional_flow_pct": 0.2209,
-    "current_value": 901393959,
-    "prior_value": 738284782
+    "institutional_flow_pct": 2.7349,
+    "current_value": 3366645496,
+    "prior_value": 901393959
   },
   "WEC": {
-    "institutional_flow_pct": 0.249,
-    "current_value": 37783720016,
-    "prior_value": 30252106687
+    "institutional_flow_pct": -0.0163,
+    "current_value": 37166104708,
+    "prior_value": 37783720016
   },
   "WELL": {
-    "institutional_flow_pct": 0.2358,
-    "current_value": 143834804237,
-    "prior_value": 116391838512
+    "institutional_flow_pct": 0.0716,
+    "current_value": 154131505635,
+    "prior_value": 143834804237
   },
   "WFC": {
-    "institutional_flow_pct": -0.3729,
-    "current_value": 714568570,
-    "prior_value": 1139564845
+    "institutional_flow_pct": 0.2387,
+    "current_value": 885136507,
+    "prior_value": 714568570
   },
   "WM": {
-    "institutional_flow_pct": 0.0371,
-    "current_value": 10167336904,
-    "prior_value": 9803689846
+    "institutional_flow_pct": 0.0935,
+    "current_value": 11117967324,
+    "prior_value": 10167336904
   },
   "WMB": {
-    "institutional_flow_pct": 0.1952,
-    "current_value": 145589357,
-    "prior_value": 121808306
+    "institutional_flow_pct": -0.0369,
+    "current_value": 140222202,
+    "prior_value": 145589357
   },
   "WMT": {
-    "institutional_flow_pct": 0.2973,
-    "current_value": 431701593672,
-    "prior_value": 332764512838
+    "institutional_flow_pct": -0.1873,
+    "current_value": 350860535459,
+    "prior_value": 431701593672
   },
   "WRB": {
-    "institutional_flow_pct": 1.2205,
-    "current_value": 25072402,
-    "prior_value": 11291461
+    "institutional_flow_pct": -0.5102,
+    "current_value": 12281444,
+    "prior_value": 25072402
   },
   "WSM": {
-    "institutional_flow_pct": 0.0134,
-    "current_value": 1349832230,
-    "prior_value": 1331953346
+    "institutional_flow_pct": 0.1635,
+    "current_value": 1570565500,
+    "prior_value": 1349832230
   },
   "WST": {
-    "institutional_flow_pct": 0.1602,
-    "current_value": 66889047,
-    "prior_value": 57651714
+    "institutional_flow_pct": 1.1331,
+    "current_value": 142680060,
+    "prior_value": 66889047
   },
   "WY": {
-    "institutional_flow_pct": -0.13,
-    "current_value": 96264024,
-    "prior_value": 110642495
+    "institutional_flow_pct": 0.0121,
+    "current_value": 97429490,
+    "prior_value": 96264024
   },
   "WYNN": {
-    "institutional_flow_pct": 121.6245,
-    "current_value": 501657,
-    "prior_value": 4091
+    "institutional_flow_pct": 6.5262,
+    "current_value": 3775559,
+    "prior_value": 501657
   },
   "XEL": {
-    "institutional_flow_pct": 0.2154,
-    "current_value": 49795133488,
-    "prior_value": 40969700302
+    "institutional_flow_pct": -0.0289,
+    "current_value": 48357264870,
+    "prior_value": 49795133488
   },
   "XYL": {
-    "institutional_flow_pct": 0.0856,
-    "current_value": 31359415596,
-    "prior_value": 28886308994
+    "institutional_flow_pct": -0.1571,
+    "current_value": 26432196678,
+    "prior_value": 31359415596
   },
   "XYZ": {
-    "institutional_flow_pct": 0.1624,
-    "current_value": 34255250017,
-    "prior_value": 29469999133
+    "institutional_flow_pct": 0.0174,
+    "current_value": 34852857203,
+    "prior_value": 34255250017
   },
   "YUM": {
-    "institutional_flow_pct": 0.0142,
-    "current_value": 3281692715,
-    "prior_value": 3235721694
+    "institutional_flow_pct": 0.0529,
+    "current_value": 3455325476,
+    "prior_value": 3281692715
   },
   "ZBH": {
-    "institutional_flow_pct": 0.1653,
-    "current_value": 19011398119,
-    "prior_value": 16314074033
+    "institutional_flow_pct": -0.1148,
+    "current_value": 16827942477,
+    "prior_value": 19011398119
   },
   "ZBRA": {
-    "institutional_flow_pct": -0.1372,
-    "current_value": 94646392,
-    "prior_value": 109696367
+    "institutional_flow_pct": 0.3185,
+    "current_value": 124787850,
+    "prior_value": 94646392
   },
   "ZTS": {
-    "institutional_flow_pct": 0.2665,
-    "current_value": 64806832722,
-    "prior_value": 51169300475
+    "institutional_flow_pct": -0.5284,
+    "current_value": 30565535232,
+    "prior_value": 64806832722
   }
 }
